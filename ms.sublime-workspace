@@ -32,6 +32,16 @@
 	},
 	"file_history":
 	[
+		"/Users/Davo/Downloads/mikedewar-getting_started_with_d3-bdfc34e/visualisations/data/turnstile_traffic.json",
+		"/Users/Davo/Downloads/mikedewar-getting_started_with_d3-bdfc34e/visualisations/wait_time_distribution.html",
+		"/Users/Davo/Downloads/mikedewar-getting_started_with_d3-bdfc34e/visualisations/mean_daily_plaza_traffic.html",
+		"/Users/Davo/Downloads/mikedewar-getting_started_with_d3-bdfc34e/visualisations/data/station_distances.json",
+		"/Users/Davo/Downloads/mikedewar-getting_started_with_d3-bdfc34e/visualisations/data/subway_wait.json",
+		"/Users/Davo/Downloads/mikedewar-getting_started_with_d3-bdfc34e/visualisations/demo.html",
+		"/Users/Davo/Downloads/mikedewar-getting_started_with_d3-bdfc34e/visualisations/turnstile_traffic.html",
+		"/Users/Davo/Downloads/mikedewar-getting_started_with_d3-bdfc34e/visualisations/data/interarrival_times.json",
+		"/Users/Davo/Downloads/mikedewar-getting_started_with_d3-bdfc34e/cleaning_code/parse_performance.py",
+		"/Users/Davo/Downloads/mikedewar-getting_started_with_d3-bdfc34e/cleaning_code/interarrival_time.py"
 	],
 	"find":
 	{
@@ -49,6 +59,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"div"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -127,6 +138,6 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 206.0,
 	"status_bar_visible": true
 }
