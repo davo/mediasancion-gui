@@ -37,6 +37,7 @@ app.configure('development', function(){
 });
 
 app.get('/', routes.index);
+app.get('/acerca', routes.acerca);
 
 // Listener
 http.createServer(app).listen(app.get('port'), function(){
