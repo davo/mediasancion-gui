@@ -1,0 +1,186 @@
+@import url(http://fonts.googleapis.com/css?family=Arvo:400,700);
+
+
+/*font-family: 'Arvo', serif;
+font-family: 'Rokkitt', serif;*/
+
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	padding-top: 0px;
+	background: url(../images/ms-bkg.png);
+}
+
+header .container, footer .container {
+  font-family: 'Arvo', serif;
+	display: block;
+}
+
+header .container {
+  color: #404040 !important;
+}
+
+.container {
+
+}
+
+.jumbotron {
+  font-weight: normal !important;
+  position: relative;
+  padding: 40px 0;
+  color: #404040;
+  text-shadow: none;
+  background: none
+}
+
+.brand {
+  display: block;
+  width: 248px;
+  height: 88px;
+  background-image: url('../images/logo.svg');
+  background-repeat: no-repeat;
+  background-position:50% 50%; 
+  text-indent: -5000px;
+  padding: 0px;
+  margin-left: 15px;
+  margin-top: 0px;
+  }
+
+
+.lead {
+  position: relative;
+  margin-top: -45px;
+  margin-left: 112px;
+  color: #969696;
+  font-size: 12px !important;
+  font-weight: normal;
+  letter-spacing: -.05em;
+  color: ;
+}
+
+header small {
+  display: block;
+  margin-top: 20px;
+  margin-left: 60px;
+  font-size: 13px;
+}
+
+footer {
+}
+
+.footer {
+  background-color: #000;
+	padding: 0;
+	margin: 0;
+}
+
+footer .container {
+  color: #FFF;
+  font-style: normal;
+	}
+
+  .credits {
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+.bs-docs-example {
+  position: relative;
+  margin: 15px 0;
+  padding: 39px 19px 14px;
+  *padding-top: 19px;
+  background-color: #FAFAFA;
+  border: 1px solid #ddd;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+}
+
+.bs-docs-example:after {
+  content: "Prototipo de vista";
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  padding: 3px 7px;
+  font-size: 12px;
+  font-weight: bold;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  color: #9da0a4;
+  -webkit-border-radius: 4px 0 4px 0;
+     -moz-border-radius: 4px 0 4px 0;
+          border-radius: 4px 0 4px 0;
+}
+
+.arrow-box {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  padding: 10px;
+  position: relative;
+ /* background: #AEB2B4;*/
+}
+.arrow-box:after {
+  top: 100%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+
+.arrow-box:after {
+/*  border-top-color: #AEB2B4;*/
+  border-width: 7px;
+  left: 50%;
+  margin-left: -7px;
+}
+
+.arrow-inicio {
+  background-color: #FFF;
+}
+
+.arrow-inicio:after {
+  border-top-color: #FFF;
+}
+
+.arrow-acerca {
+  background-color: #AEB2B4;
+}
+
+.arrow-acerca:after {
+    border-top-color: #AEB2B4;
+}
+
+.arrow-proyectos {
+  background-color: #BDE5F9;
+}
+
+.arrow-proyectos:after {
+  border-top-color: #BDE5F9;
+}
+
+.arrow-legisladores {
+  background-color: #97E8E4;
+}
+
+.arrow-legisladores:after {
+  border-top-color: #97E8E4;
+}
+
+.arrow-comisiones {
+  background-color: #6CC9F6;
+}
+
+.arrow-comisiones:after {
+  border-top-color: #6CC9F6;
+}
+
+.nav {
+  margin-left: 20px;
+}
+
+.nav > li > a:hover {
+  text-decoration: none;
+  background-color: transparent;
+}
