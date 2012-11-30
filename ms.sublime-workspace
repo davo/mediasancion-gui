@@ -3,10 +3,95 @@
 	{
 		"selected_items":
 		[
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"co",
+				"container"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"MAR",
+				"margin-top"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"im",
+				"important"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"p",
+				"png"
+			],
+			[
+				"ba",
+				"background"
+			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "/Users/Davo/Desktop/apps/assets/css/bootstrap.css",
+			"settings":
+			{
+				"buffer_size": 121869,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/www/assets/css/base.css",
+			"settings":
+			{
+				"buffer_size": 2968,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/www/home.html",
+			"settings":
+			{
+				"buffer_size": 2969,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "#ConElDiente",
+			"settings":
+			{
+				"buffer_size": 12,
+				"line_ending": "Unix",
+				"name": "#ConElDiente"
+			}
+		},
+		{
+			"file": "src/www/assets/css/docs.css",
+			"settings":
+			{
+				"buffer_size": 19825,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -32,6 +117,14 @@
 	},
 	"file_history":
 	[
+		"/WRKK/G/garagelab/mediasancion/src/www/tabla.html",
+		"/WRKK/G/garagelab/mediasancion/src/www/assets/js/bootstrap-scrollspy.js",
+		"/WRKK/G/garagelab/mediasancion/src/www/assets/css/docs.css",
+		"/WRKK/G/garagelab/mediasancion/src/www/assets/css/bootstrap-responsive.css",
+		"/WRKK/G/garagelab/mediasancion/src/www/assets/js/bootstrap-modal.js",
+		"/Users/Davo/Desktop/apps/index_apps.html",
+		"/WRKK/G/garagelab/mediasancion/src/www/assets/css/base.css",
+		"/WRKK/G/garagelab/mediasancion/src/www/assets/css/base.csss",
 		"/Users/Davo/Downloads/mikedewar-getting_started_with_d3-bdfc34e/visualisations/data/turnstile_traffic.json",
 		"/Users/Davo/Downloads/mikedewar-getting_started_with_d3-bdfc34e/visualisations/wait_time_distribution.html",
 		"/Users/Davo/Downloads/mikedewar-getting_started_with_d3-bdfc34e/visualisations/mean_daily_plaza_traffic.html",
@@ -45,7 +138,7 @@
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -59,14 +152,65 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"lead",
+			"small",
+			".subhead",
+			"box\"",
+			"color",
+			"arrow_box",
+			"88b7d5",
+			"10px",
+			"eeeeee",
+			".nav > li > a:hover",
+			"#EEE",
+			".nav > li > a:hover",
+			"eee",
+			"eeeee",
+			"eeee",
+			"eee",
+			"<li>",
+			"arrow_box",
+			"nav-pill",
+			"nav-pills",
+			"nav-pill",
+			"}\n",
+			"nav-pills",
+			"rgba",
+			"nav-pi",
+			"active",
+			"lead",
+			"jumbo",
+			"jumbotron",
+			"subhead",
+			"jumbotron",
+			"jumbo",
+			".navbar .brand {\n  display: block;\n  float: left;\n  padding: 10px 20px 10px;\n  margin-left: -20px;\n  font-size: 20px;\n  font-weight: 200;\n  color: #777777;\n  text-shadow: 0 1px 0 #ffffff;\n}",
+			"jumbo",
+			".con",
+			".coin",
+			"body",
+			"<div class=\"thumbnail\">\n  \n    <a href=\"",
+			"<a href=\".+",
+			"<a href=\"",
+			"<a href=\"/.+",
+			"<a href=\"/",
+			".row-fluid [class*=\"span\"]:nth-child(4n+1",
+			".row-fluid",
+			".row-fluid [class*=\"span\"]:nth-child(4n+1",
+			"thumb",
+			"<p><small>.+",
+			"<img src='/media/apps/buenos-aires-apps/balibros/cache/balibros_span3.jpg' class=\"img-rounded\" /></a>",
+			"<img src=.+",
 			"div"
 		],
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": false,
-		"regex": false,
+		"regex": true,
 		"replace_history":
 		[
+			"<a href=\"http://concursos.buenosaires.gob.ar/buenos-aires-apps/",
+			"<a href=\"/http://concursos.buenosaires.gob.ar/buenos-aires-apps/"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -77,8 +221,147 @@
 	"groups":
 	[
 		{
+			"selected": 3,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/Users/Davo/Desktop/apps/assets/css/bootstrap.css",
+					"settings":
+					{
+						"buffer_size": 121869,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								11517,
+								11523
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 13916.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/www/assets/css/base.css",
+					"settings":
+					{
+						"buffer_size": 2968,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1074,
+								1074
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 631.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/www/home.html",
+					"settings":
+					{
+						"buffer_size": 2969,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2574,
+								2580
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"settings":
+					{
+						"buffer_size": 12,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								12,
+								12
+							]
+						],
+						"settings":
+						{
+							"auto_name": "#ConElDiente",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/www/assets/css/docs.css",
+					"settings":
+					{
+						"buffer_size": 19825,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5014,
+								5014
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2319.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -88,7 +371,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 33.0
 	},
 	"layout":
 	{
@@ -115,7 +398,7 @@
 	"menu_visible": true,
 	"replace":
 	{
-		"height": 0.0
+		"height": 64.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -128,11 +411,15 @@
 	},
 	"select_project":
 	{
-		"height": 0.0,
+		"height": 500.0,
 		"selected_items":
 		[
+			[
+				"",
+				"/WRKK/H/hhba/hackdash/hackdash.sublime-project"
+			]
 		],
-		"width": 0.0
+		"width": 380.0
 	},
 	"show_minimap": true,
 	"show_open_files": true,
