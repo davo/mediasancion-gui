@@ -1,3 +1,10 @@
+
+/*
+ * Module dependencies
+ */
+
+var fs = require('fs');
+
 /*
 * GET home page.
 */
@@ -11,7 +18,10 @@ exports.acerca = function(req, res){
 };
 
 exports.proyectos = function(req, res){
-  res.render('proyectos', { title: 'Media Sanción | Proyectos' });
+  fs.readFile(__dirname + '/../data/proyecto-list.json', 'utf-8', function(err, data){
+    data = JSON.parse(data);
+    res.render('proyectos', { title: 'Media Sanción | Proyectos', proyectos: data });
+  });
 };
 
 exports.legisladores = function(req, res){
