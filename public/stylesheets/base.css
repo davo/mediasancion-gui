@@ -15,6 +15,11 @@ header .container, footer .container {
 	display: block;
 }
 
+.search-bar h1 {
+    display: block;
+    margin-top: 300px;
+}
+
 header .container {
   color: #404040 !important;
 }

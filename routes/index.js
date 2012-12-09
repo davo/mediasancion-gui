@@ -10,3 +10,7 @@ exports.acerca = function(req, res){
   res.render('acerca', { title: 'Media Sanción | Acerca' });
 };
 
+exports.proyectos = function(req, res){
+  res.render('proyectos', { title: 'Media Sanción | Proyectos' });
+};
+
