@@ -1,7 +1,11 @@
 # Build and Release Folders
 bin-debug/
 bin-release/
+
 node_modules
+.DS_Store
+.sublime-project
+src
 
 # Project property files
 .actionScriptProperties
