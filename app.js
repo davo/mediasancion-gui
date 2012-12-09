@@ -39,6 +39,8 @@ app.configure('development', function(){
 app.get('/', routes.index);
 app.get('/acerca', routes.acerca);
 app.get('/proyectos', routes.proyectos);
+app.get('/legisladores', routes.legisladores);
+app.get('/comisiones', routes.comisiones);
 
 // Listener
 http.createServer(app).listen(app.get('port'), function(){

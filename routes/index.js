@@ -14,3 +14,11 @@ exports.proyectos = function(req, res){
   res.render('proyectos', { title: 'Media Sanción | Proyectos' });
 };
 
+exports.legisladores = function(req, res){
+  res.render('legisladores', { title: 'Media Sanción | Legisladores' });
+};
+
+exports.comisiones = function(req, res){
+  res.render('comisiones', { title: 'Media Sanción | Comisiones' });
+};
+
