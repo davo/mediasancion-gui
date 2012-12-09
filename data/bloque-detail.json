@@ -1,0 +1,2084 @@
+{
+ "status": "OK", 
+ "payload": {
+  "bloque": {
+   "url": "/api/0/bloques/9a51ab42-0ae2-4b62-ba86-a8e051ce638f/", 
+   "nombre": "Frente para la Victoria - PJ", 
+   "legisladores": [
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/b7eb2113-8037-4245-801f-5e84900d452a/", 
+      "fin": null, 
+      "uuid": "b7eb2113-8037-4245-801f-5e84900d452a", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/d4572a46-4704-42b4-b997-1b7061146205/", 
+      "fin": null, 
+      "uuid": "d4572a46-4704-42b4-b997-1b7061146205", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/131227c4-10a8-4e3d-a063-22f6b45584bd/", 
+      "fin": null, 
+      "uuid": "131227c4-10a8-4e3d-a063-22f6b45584bd", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/8b3eb934-a5bc-4867-8513-166b7479e26a/", 
+      "fin": null, 
+      "uuid": "8b3eb934-a5bc-4867-8513-166b7479e26a", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/a66ccfa2-c44f-4dec-8fd7-d37759c01b2f/", 
+      "fin": null, 
+      "uuid": "a66ccfa2-c44f-4dec-8fd7-d37759c01b2f", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/16111b02-54b0-49d8-bd8b-49a3d94f9c01/", 
+      "fin": null, 
+      "uuid": "16111b02-54b0-49d8-bd8b-49a3d94f9c01", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/99c49447-db1d-4172-99b8-82bcce236ad5/", 
+      "fin": null, 
+      "uuid": "99c49447-db1d-4172-99b8-82bcce236ad5", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/4f26cb35-5ccb-45cc-95c1-2f9c2f60dd4a/", 
+      "fin": null, 
+      "uuid": "4f26cb35-5ccb-45cc-95c1-2f9c2f60dd4a", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/bed478fd-0361-42cf-9523-314ee3b73cf1/", 
+      "fin": null, 
+      "uuid": "bed478fd-0361-42cf-9523-314ee3b73cf1", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/c9e02f3d-562d-4edb-bf21-0f94e187a958/", 
+      "fin": null, 
+      "uuid": "c9e02f3d-562d-4edb-bf21-0f94e187a958", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/2c1a1c24-93e8-4cf0-bf1d-b968b6236ac2/", 
+      "fin": null, 
+      "uuid": "2c1a1c24-93e8-4cf0-bf1d-b968b6236ac2", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/af655f63-57f2-4dac-a2bb-eaab7f027c86/", 
+      "fin": null, 
+      "uuid": "af655f63-57f2-4dac-a2bb-eaab7f027c86", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/920ce3cf-a283-46e7-a45a-563a8c63c036/", 
+      "fin": null, 
+      "uuid": "920ce3cf-a283-46e7-a45a-563a8c63c036", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/77a40247-c84a-4ba2-aa88-d2e73da4ccba/", 
+      "fin": null, 
+      "uuid": "77a40247-c84a-4ba2-aa88-d2e73da4ccba", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/cb16bf18-c569-47a1-b2f1-354a5f9331b7/", 
+      "fin": null, 
+      "uuid": "cb16bf18-c569-47a1-b2f1-354a5f9331b7", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/826ef4e8-2d54-490b-80d7-3cf4e84a84a0/", 
+      "fin": null, 
+      "uuid": "826ef4e8-2d54-490b-80d7-3cf4e84a84a0", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/ec7e9472-8a28-44ba-a6b1-e08604171a82/", 
+      "fin": null, 
+      "uuid": "ec7e9472-8a28-44ba-a6b1-e08604171a82", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/da0b1aab-3c19-4082-bfc0-86089d62b91d/", 
+      "fin": null, 
+      "uuid": "da0b1aab-3c19-4082-bfc0-86089d62b91d", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/def10392-391b-41a0-9133-7ab5106b5043/", 
+      "fin": null, 
+      "uuid": "def10392-391b-41a0-9133-7ab5106b5043", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/dcbd8b8c-2147-4e93-9b6e-af8c2c0d2742/", 
+      "fin": null, 
+      "uuid": "dcbd8b8c-2147-4e93-9b6e-af8c2c0d2742", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/6c6d2343-d4ab-4ac5-9ad8-a85dc606f8f8/", 
+      "fin": null, 
+      "uuid": "6c6d2343-d4ab-4ac5-9ad8-a85dc606f8f8", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/13bb5d4e-d2d8-48aa-ab8f-086f80dc4f5d/", 
+      "fin": null, 
+      "uuid": "13bb5d4e-d2d8-48aa-ab8f-086f80dc4f5d", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/01ab048e-4cf3-4667-abda-6fd1f0717861/", 
+      "fin": null, 
+      "uuid": "01ab048e-4cf3-4667-abda-6fd1f0717861", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/a369b05d-638f-41c9-aec3-da2aa6d69db7/", 
+      "fin": null, 
+      "uuid": "a369b05d-638f-41c9-aec3-da2aa6d69db7", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/d4b84501-0dee-42ae-815e-3160db0ec926/", 
+      "fin": null, 
+      "uuid": "d4b84501-0dee-42ae-815e-3160db0ec926", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/6a966be7-52b9-455e-8b17-66a12c4dffef/", 
+      "fin": null, 
+      "uuid": "6a966be7-52b9-455e-8b17-66a12c4dffef", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/ef29f468-61f0-4390-9aeb-7774807ac014/", 
+      "fin": null, 
+      "uuid": "ef29f468-61f0-4390-9aeb-7774807ac014", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/8e1f280b-48b1-448b-b095-f109103871d2/", 
+      "fin": null, 
+      "uuid": "8e1f280b-48b1-448b-b095-f109103871d2", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/2a4a0cfd-cdd4-4f96-9ae4-56bc58575515/", 
+      "fin": null, 
+      "uuid": "2a4a0cfd-cdd4-4f96-9ae4-56bc58575515", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/fa3ad5c9-af63-4a44-8597-7decaa85593d/", 
+      "fin": null, 
+      "uuid": "fa3ad5c9-af63-4a44-8597-7decaa85593d", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/f0d4c38f-e1f7-4b66-8ecd-d9cf6491fa44/", 
+      "fin": null, 
+      "uuid": "f0d4c38f-e1f7-4b66-8ecd-d9cf6491fa44", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/2bf5cd08-a486-4f69-8dec-2a3a2cde5085/", 
+      "fin": null, 
+      "uuid": "2bf5cd08-a486-4f69-8dec-2a3a2cde5085", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/e9a648ec-1b7f-400b-b686-1a84ba83de30/", 
+      "fin": null, 
+      "uuid": "e9a648ec-1b7f-400b-b686-1a84ba83de30", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/869b5554-d58c-4bfa-8c7b-64fd4c943e2c/", 
+      "fin": null, 
+      "uuid": "869b5554-d58c-4bfa-8c7b-64fd4c943e2c", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/2d2adaf6-d938-488a-b83e-bdb2985fb3de/", 
+      "fin": null, 
+      "uuid": "2d2adaf6-d938-488a-b83e-bdb2985fb3de", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/87f5c72f-3de1-4390-ac15-5a46a4747e92/", 
+      "fin": null, 
+      "uuid": "87f5c72f-3de1-4390-ac15-5a46a4747e92", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/58f5db47-034f-4180-9a20-a13b32de3e31/", 
+      "fin": null, 
+      "uuid": "58f5db47-034f-4180-9a20-a13b32de3e31", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/ee64009e-bf4d-4eb5-8d31-a36d92ef5577/", 
+      "fin": null, 
+      "uuid": "ee64009e-bf4d-4eb5-8d31-a36d92ef5577", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/5900e30a-91b5-4313-a750-5fb540c05a13/", 
+      "fin": null, 
+      "uuid": "5900e30a-91b5-4313-a750-5fb540c05a13", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/bf30e6bd-73f8-4923-9b48-efa89607d808/", 
+      "fin": null, 
+      "uuid": "bf30e6bd-73f8-4923-9b48-efa89607d808", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/c6da88f7-9738-4a48-b698-ff292067a50f/", 
+      "fin": null, 
+      "uuid": "c6da88f7-9738-4a48-b698-ff292067a50f", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/2e86e645-1f00-4e21-ade1-1f852078faa5/", 
+      "fin": null, 
+      "uuid": "2e86e645-1f00-4e21-ade1-1f852078faa5", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/5e7ae09e-8036-4aed-86ac-a2507318dc52/", 
+      "fin": null, 
+      "uuid": "5e7ae09e-8036-4aed-86ac-a2507318dc52", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/5081b676-241a-48b5-ac00-8b432fd122c8/", 
+      "fin": null, 
+      "uuid": "5081b676-241a-48b5-ac00-8b432fd122c8", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/9a89c84f-10c8-46f1-92e2-25ea7bacb180/", 
+      "fin": null, 
+      "uuid": "9a89c84f-10c8-46f1-92e2-25ea7bacb180", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/01f7757a-6623-44f9-8c66-ada25df63367/", 
+      "fin": null, 
+      "uuid": "01f7757a-6623-44f9-8c66-ada25df63367", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/c72b10ea-7135-4eb9-b1f9-129a9067c5b8/", 
+      "fin": null, 
+      "uuid": "c72b10ea-7135-4eb9-b1f9-129a9067c5b8", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/742d72bd-d167-48c7-a789-114c08c0d89e/", 
+      "fin": null, 
+      "uuid": "742d72bd-d167-48c7-a789-114c08c0d89e", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/f9f50327-4d89-4ddc-a6af-83f8f44d7580/", 
+      "fin": null, 
+      "uuid": "f9f50327-4d89-4ddc-a6af-83f8f44d7580", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/9885636c-457c-4792-95ff-2b6e87a7e225/", 
+      "fin": null, 
+      "uuid": "9885636c-457c-4792-95ff-2b6e87a7e225", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/7fa16a63-d445-4447-a828-8b0b0eb18130/", 
+      "fin": null, 
+      "uuid": "7fa16a63-d445-4447-a828-8b0b0eb18130", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/42c0373d-e49e-40ff-8755-4a2ef96e8bee/", 
+      "fin": null, 
+      "uuid": "42c0373d-e49e-40ff-8755-4a2ef96e8bee", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/06445f3e-0c34-4289-8d29-2611451cdb80/", 
+      "fin": null, 
+      "uuid": "06445f3e-0c34-4289-8d29-2611451cdb80", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/f97a9ae0-f99b-4ca0-b535-f98ba4bec803/", 
+      "fin": null, 
+      "uuid": "f97a9ae0-f99b-4ca0-b535-f98ba4bec803", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/c0be1612-1255-41ff-8871-0f1c9b1bf348/", 
+      "fin": null, 
+      "uuid": "c0be1612-1255-41ff-8871-0f1c9b1bf348", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/4890a41c-17e0-46c7-93ab-2775a2451a5c/", 
+      "fin": null, 
+      "uuid": "4890a41c-17e0-46c7-93ab-2775a2451a5c", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/74854fac-a345-4cf9-8dbb-48230413691d/", 
+      "fin": null, 
+      "uuid": "74854fac-a345-4cf9-8dbb-48230413691d", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/d697f1a3-c2bf-44cb-9a15-9b757a9300c8/", 
+      "fin": null, 
+      "uuid": "d697f1a3-c2bf-44cb-9a15-9b757a9300c8", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/e84f15c3-2af6-4555-81a0-a561644ab886/", 
+      "fin": null, 
+      "uuid": "e84f15c3-2af6-4555-81a0-a561644ab886", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/dc9c58f6-a534-4be1-a033-34093f633ed2/", 
+      "fin": null, 
+      "uuid": "dc9c58f6-a534-4be1-a033-34093f633ed2", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/190cd2bd-da36-4a4c-b0c5-27629d07c12b/", 
+      "fin": null, 
+      "uuid": "190cd2bd-da36-4a4c-b0c5-27629d07c12b", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/46053d01-22e8-450d-9800-0713527c52ac/", 
+      "fin": null, 
+      "uuid": "46053d01-22e8-450d-9800-0713527c52ac", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/46486c37-fa6a-4b34-8700-6fc3fda4b0da/", 
+      "fin": null, 
+      "uuid": "46486c37-fa6a-4b34-8700-6fc3fda4b0da", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/f2d8f75a-50d9-430a-baab-19fb123d0a86/", 
+      "fin": null, 
+      "uuid": "f2d8f75a-50d9-430a-baab-19fb123d0a86", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/9f353770-fb03-41ca-bba0-057ae328ed64/", 
+      "fin": null, 
+      "uuid": "9f353770-fb03-41ca-bba0-057ae328ed64", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/c661a93c-715e-47d6-8495-892abffd455b/", 
+      "fin": null, 
+      "uuid": "c661a93c-715e-47d6-8495-892abffd455b", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/b9dfc9a0-2e66-48d1-afc0-4575504609ab/", 
+      "fin": null, 
+      "uuid": "b9dfc9a0-2e66-48d1-afc0-4575504609ab", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/3912eec7-dfd6-41d4-8e1c-3686807f1f2f/", 
+      "fin": null, 
+      "uuid": "3912eec7-dfd6-41d4-8e1c-3686807f1f2f", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/45ee3c5d-5f1f-4d97-a5cd-f70f54a2042f/", 
+      "fin": null, 
+      "uuid": "45ee3c5d-5f1f-4d97-a5cd-f70f54a2042f", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/4c918b59-d50e-4aa6-922a-b21e1cf08c5a/", 
+      "fin": null, 
+      "uuid": "4c918b59-d50e-4aa6-922a-b21e1cf08c5a", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/a1daf158-fae2-4675-b81a-ddd6039f4166/", 
+      "fin": null, 
+      "uuid": "a1daf158-fae2-4675-b81a-ddd6039f4166", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/878b2403-f8b8-420d-886b-4e06ea32ae9b/", 
+      "fin": null, 
+      "uuid": "878b2403-f8b8-420d-886b-4e06ea32ae9b", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/dd47a13a-baf1-4308-89a2-1bf9bd2dca07/", 
+      "fin": null, 
+      "uuid": "dd47a13a-baf1-4308-89a2-1bf9bd2dca07", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/f9b2d853-302c-462a-b0f7-fe838afa4f13/", 
+      "fin": null, 
+      "uuid": "f9b2d853-302c-462a-b0f7-fe838afa4f13", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/d28523f1-287e-46cf-b3a3-97872d0970fa/", 
+      "fin": null, 
+      "uuid": "d28523f1-287e-46cf-b3a3-97872d0970fa", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/24f32852-a42b-401b-9bf8-e972652bb867/", 
+      "fin": null, 
+      "uuid": "24f32852-a42b-401b-9bf8-e972652bb867", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/3ee82300-a6e2-42e0-b879-405df79991b0/", 
+      "fin": null, 
+      "uuid": "3ee82300-a6e2-42e0-b879-405df79991b0", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/6a5ea8ec-358c-423d-8b98-e0038f3dff09/", 
+      "fin": null, 
+      "uuid": "6a5ea8ec-358c-423d-8b98-e0038f3dff09", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/47f986a2-bbd0-4a49-815f-ab7aaf58a100/", 
+      "fin": null, 
+      "uuid": "47f986a2-bbd0-4a49-815f-ab7aaf58a100", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/fce99d6f-090b-416b-8cbe-d121e465e48a/", 
+      "fin": null, 
+      "uuid": "fce99d6f-090b-416b-8cbe-d121e465e48a", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/76d45b88-f876-4eb1-8210-35e1fb047a20/", 
+      "fin": null, 
+      "uuid": "76d45b88-f876-4eb1-8210-35e1fb047a20", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/4a03f3f6-fc23-4fee-91c8-a4f72643f8e1/", 
+      "fin": null, 
+      "uuid": "4a03f3f6-fc23-4fee-91c8-a4f72643f8e1", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/d198baea-86b7-4b22-aae7-36d9f7790590/", 
+      "fin": null, 
+      "uuid": "d198baea-86b7-4b22-aae7-36d9f7790590", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/82337f46-a2c9-40e7-b0b4-6b06dc0c8047/", 
+      "fin": null, 
+      "uuid": "82337f46-a2c9-40e7-b0b4-6b06dc0c8047", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/2b8a5ce6-f378-4e46-a120-5fcb6c5c01e3/", 
+      "fin": null, 
+      "uuid": "2b8a5ce6-f378-4e46-a120-5fcb6c5c01e3", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/0172d66d-a8d0-4f60-b815-099f4c299b34/", 
+      "fin": null, 
+      "uuid": "0172d66d-a8d0-4f60-b815-099f4c299b34", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/a1ee2019-0e21-476f-998f-4634fc04401e/", 
+      "fin": null, 
+      "uuid": "a1ee2019-0e21-476f-998f-4634fc04401e", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/05adff71-2a50-4303-9d40-6fb29e244396/", 
+      "fin": null, 
+      "uuid": "05adff71-2a50-4303-9d40-6fb29e244396", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/ebac5b1b-0c2a-459a-bb44-aa79e984d1d1/", 
+      "fin": null, 
+      "uuid": "ebac5b1b-0c2a-459a-bb44-aa79e984d1d1", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/a2a27acd-745d-42ea-aef7-e8b562994ef2/", 
+      "fin": null, 
+      "uuid": "a2a27acd-745d-42ea-aef7-e8b562994ef2", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/375ae775-c56c-4f09-91f4-b9a3679183dc/", 
+      "fin": null, 
+      "uuid": "375ae775-c56c-4f09-91f4-b9a3679183dc", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/9a5b9251-798d-489d-af45-0829566608da/", 
+      "fin": null, 
+      "uuid": "9a5b9251-798d-489d-af45-0829566608da", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/adca1df0-ab92-4937-ba37-4d394f8b79a4/", 
+      "fin": null, 
+      "uuid": "adca1df0-ab92-4937-ba37-4d394f8b79a4", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/907627a8-6d7e-42fc-b19e-dd0e2e0d8312/", 
+      "fin": null, 
+      "uuid": "907627a8-6d7e-42fc-b19e-dd0e2e0d8312", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/8b7390d7-cc73-44d9-8855-6f4dee53d6be/", 
+      "fin": null, 
+      "uuid": "8b7390d7-cc73-44d9-8855-6f4dee53d6be", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/cf23d94e-0520-4ee2-83bb-26927a41224d/", 
+      "fin": null, 
+      "uuid": "cf23d94e-0520-4ee2-83bb-26927a41224d", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/c5e554b9-269a-4c1b-b996-210fecf247ae/", 
+      "fin": null, 
+      "uuid": "c5e554b9-269a-4c1b-b996-210fecf247ae", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/aafa2c4d-0045-42b7-bfdf-6a62041343f8/", 
+      "fin": null, 
+      "uuid": "aafa2c4d-0045-42b7-bfdf-6a62041343f8", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/2dd447e8-f520-4d07-80e5-8053fb5df90a/", 
+      "fin": null, 
+      "uuid": "2dd447e8-f520-4d07-80e5-8053fb5df90a", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/f756c663-e1cf-48cd-939b-9328a5f5c960/", 
+      "fin": null, 
+      "uuid": "f756c663-e1cf-48cd-939b-9328a5f5c960", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/ae3715da-5de8-4d58-9b13-9fb04c8dc467/", 
+      "fin": null, 
+      "uuid": "ae3715da-5de8-4d58-9b13-9fb04c8dc467", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/5b142e1c-8470-4b91-8a9e-b1f2d0479d3e/", 
+      "fin": null, 
+      "uuid": "5b142e1c-8470-4b91-8a9e-b1f2d0479d3e", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/c90780fb-f3ce-461e-9838-0f070c66ae16/", 
+      "fin": null, 
+      "uuid": "c90780fb-f3ce-461e-9838-0f070c66ae16", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/9526e23e-9758-4b43-b2e7-db841fcda9ea/", 
+      "fin": null, 
+      "uuid": "9526e23e-9758-4b43-b2e7-db841fcda9ea", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/4f943420-9952-4c51-983d-1b739a496f39/", 
+      "fin": null, 
+      "uuid": "4f943420-9952-4c51-983d-1b739a496f39", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/03c5d900-eca3-46be-946d-42bfc947b2cd/", 
+      "fin": null, 
+      "uuid": "03c5d900-eca3-46be-946d-42bfc947b2cd", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/32136a20-9e52-44f6-9f01-b98b6de3e82d/", 
+      "fin": null, 
+      "uuid": "32136a20-9e52-44f6-9f01-b98b6de3e82d", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/5299e9d0-1425-4e95-912b-01434b4a0e31/", 
+      "fin": null, 
+      "uuid": "5299e9d0-1425-4e95-912b-01434b4a0e31", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/43d6d46b-2f96-440d-b9a0-9c8ea817c63b/", 
+      "fin": null, 
+      "uuid": "43d6d46b-2f96-440d-b9a0-9c8ea817c63b", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/ad64926a-36c4-4e49-af66-c6c6a8d5d015/", 
+      "fin": null, 
+      "uuid": "ad64926a-36c4-4e49-af66-c6c6a8d5d015", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/e9472a55-a706-455a-8b5d-37beac44d7a7/", 
+      "fin": null, 
+      "uuid": "e9472a55-a706-455a-8b5d-37beac44d7a7", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/7457e3a3-9a12-41e7-9b75-abb61ab4b13b/", 
+      "fin": null, 
+      "uuid": "7457e3a3-9a12-41e7-9b75-abb61ab4b13b", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/561d7854-1dae-472a-9ccc-7501f6aafc3a/", 
+      "fin": null, 
+      "uuid": "561d7854-1dae-472a-9ccc-7501f6aafc3a", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/23188dc0-c82e-4a1c-b98a-779af83ee173/", 
+      "fin": null, 
+      "uuid": "23188dc0-c82e-4a1c-b98a-779af83ee173", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/b2b08c24-b9ab-4fd1-a8b8-30aaf60bd332/", 
+      "fin": null, 
+      "uuid": "b2b08c24-b9ab-4fd1-a8b8-30aaf60bd332", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/abac6c80-329e-4986-9eb2-3e20cc1303d5/", 
+      "fin": null, 
+      "uuid": "abac6c80-329e-4986-9eb2-3e20cc1303d5", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/a6d29b6a-77d1-4f5d-a68a-42de00b908f5/", 
+      "fin": null, 
+      "uuid": "a6d29b6a-77d1-4f5d-a68a-42de00b908f5", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/fcf34cf8-d7b0-41a0-a54b-7aa04962921b/", 
+      "fin": null, 
+      "uuid": "fcf34cf8-d7b0-41a0-a54b-7aa04962921b", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/305add51-da6a-4b5b-b45f-4dc590a6a5f6/", 
+      "fin": null, 
+      "uuid": "305add51-da6a-4b5b-b45f-4dc590a6a5f6", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/d957dbf0-c0f1-4d69-afbb-4136523f6320/", 
+      "fin": null, 
+      "uuid": "d957dbf0-c0f1-4d69-afbb-4136523f6320", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/c3de2512-8775-464a-9f7a-34187047ed85/", 
+      "fin": null, 
+      "uuid": "c3de2512-8775-464a-9f7a-34187047ed85", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/2bf407ed-d288-4ac1-9ee1-f8da4176611f/", 
+      "fin": null, 
+      "uuid": "2bf407ed-d288-4ac1-9ee1-f8da4176611f", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/56b9b8db-0811-4f1e-aeab-66b25695fc96/", 
+      "fin": null, 
+      "uuid": "56b9b8db-0811-4f1e-aeab-66b25695fc96", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/17654126-63c1-45d4-9fe1-ac278c5414ab/", 
+      "fin": null, 
+      "uuid": "17654126-63c1-45d4-9fe1-ac278c5414ab", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/3830b76f-503e-456d-bbe3-4e2f06952f3c/", 
+      "fin": null, 
+      "uuid": "3830b76f-503e-456d-bbe3-4e2f06952f3c", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/1013144a-6aaf-4f77-92b2-a8bc3da9ea9b/", 
+      "fin": null, 
+      "uuid": "1013144a-6aaf-4f77-92b2-a8bc3da9ea9b", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/813e7c0e-aa82-4c4d-aa08-1c8b799a997d/", 
+      "fin": null, 
+      "uuid": "813e7c0e-aa82-4c4d-aa08-1c8b799a997d", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/d3a03598-bab0-455f-88ab-7361021b05db/", 
+      "fin": null, 
+      "uuid": "d3a03598-bab0-455f-88ab-7361021b05db", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/059023fa-1836-455a-9a31-5adc9e04d688/", 
+      "fin": null, 
+      "uuid": "059023fa-1836-455a-9a31-5adc9e04d688", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/60c3afa0-7c0d-447e-baf8-4ff8dca58765/", 
+      "fin": null, 
+      "uuid": "60c3afa0-7c0d-447e-baf8-4ff8dca58765", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/2454c2fb-809d-4e48-a813-4521e453b62e/", 
+      "fin": null, 
+      "uuid": "2454c2fb-809d-4e48-a813-4521e453b62e", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/9b132959-ef95-456d-9932-1b0767affba3/", 
+      "fin": null, 
+      "uuid": "9b132959-ef95-456d-9932-1b0767affba3", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/68391f21-0167-425a-8597-34e4d19307fb/", 
+      "fin": null, 
+      "uuid": "68391f21-0167-425a-8597-34e4d19307fb", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/61759f70-16d8-4bf8-a6e7-15ce434d3d88/", 
+      "fin": null, 
+      "uuid": "61759f70-16d8-4bf8-a6e7-15ce434d3d88", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/53884a2d-e12e-4aa6-9a36-70b22642d481/", 
+      "fin": null, 
+      "uuid": "53884a2d-e12e-4aa6-9a36-70b22642d481", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/f92c6528-3c43-45e8-98a3-039bf5d2ed71/", 
+      "fin": null, 
+      "uuid": "f92c6528-3c43-45e8-98a3-039bf5d2ed71", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/97888af9-714f-485b-98b0-6ef3d1df3765/", 
+      "fin": null, 
+      "uuid": "97888af9-714f-485b-98b0-6ef3d1df3765", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/137e5bd5-45ae-43c4-b487-04d986fd958a/", 
+      "fin": null, 
+      "uuid": "137e5bd5-45ae-43c4-b487-04d986fd958a", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/91c32317-80ba-438f-825d-3d06c7f71bd2/", 
+      "fin": null, 
+      "uuid": "91c32317-80ba-438f-825d-3d06c7f71bd2", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/7b7fb8bf-e92b-4ed7-929c-2a2e717e8173/", 
+      "fin": null, 
+      "uuid": "7b7fb8bf-e92b-4ed7-929c-2a2e717e8173", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/8e329d80-c388-4d95-aff9-8be4262088b2/", 
+      "fin": null, 
+      "uuid": "8e329d80-c388-4d95-aff9-8be4262088b2", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/d64d258c-84d6-4fe5-a5eb-99c53ecc79ff/", 
+      "fin": null, 
+      "uuid": "d64d258c-84d6-4fe5-a5eb-99c53ecc79ff", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/1a1b61fb-71a4-4843-9dbb-ab8096099002/", 
+      "fin": null, 
+      "uuid": "1a1b61fb-71a4-4843-9dbb-ab8096099002", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/fba249d4-504b-413a-ac03-77b333836971/", 
+      "fin": null, 
+      "uuid": "fba249d4-504b-413a-ac03-77b333836971", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/2e9c4ff9-e5d2-4ecb-844b-f845dc31db81/", 
+      "fin": null, 
+      "uuid": "2e9c4ff9-e5d2-4ecb-844b-f845dc31db81", 
+      "inicio": null
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/4166448a-2054-474f-8925-8607b5da969a/", 
+      "fin": "2015-12-09", 
+      "uuid": "4166448a-2054-474f-8925-8607b5da969a", 
+      "inicio": "2012-03-14"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/76f030b4-560a-4634-9b46-f46e155d14b6/", 
+      "fin": "2015-12-09", 
+      "uuid": "76f030b4-560a-4634-9b46-f46e155d14b6", 
+      "inicio": "2011-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/f2ba7d84-833e-4e3c-9489-2b57288aeb47/", 
+      "fin": "2015-12-09", 
+      "uuid": "f2ba7d84-833e-4e3c-9489-2b57288aeb47", 
+      "inicio": "2011-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/46d71511-4444-44d0-90ed-eab8ed4acf12/", 
+      "fin": "2015-12-09", 
+      "uuid": "46d71511-4444-44d0-90ed-eab8ed4acf12", 
+      "inicio": "2011-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/83a59049-e751-4054-93c7-719d51fc97c3/", 
+      "fin": "2015-12-09", 
+      "uuid": "83a59049-e751-4054-93c7-719d51fc97c3", 
+      "inicio": "2011-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/fd6e873f-9ed5-4940-9fba-a5788f434a7b/", 
+      "fin": "2015-12-09", 
+      "uuid": "fd6e873f-9ed5-4940-9fba-a5788f434a7b", 
+      "inicio": "2011-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/68dbeb05-fa03-486f-b29a-66a51a665a41/", 
+      "fin": "2015-12-09", 
+      "uuid": "68dbeb05-fa03-486f-b29a-66a51a665a41", 
+      "inicio": "2011-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/44864584-a1be-4f7a-ae33-98ec48fdd83d/", 
+      "fin": "2015-12-09", 
+      "uuid": "44864584-a1be-4f7a-ae33-98ec48fdd83d", 
+      "inicio": "2011-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/60e783c5-1102-4f77-affa-e0b00ac7d327/", 
+      "fin": "2015-12-09", 
+      "uuid": "60e783c5-1102-4f77-affa-e0b00ac7d327", 
+      "inicio": "2011-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/a4b4a0f1-6aed-4384-a011-fdf9c3620596/", 
+      "fin": "2015-12-09", 
+      "uuid": "a4b4a0f1-6aed-4384-a011-fdf9c3620596", 
+      "inicio": "2011-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/5acf0b00-cfd5-46d4-8dcb-91084f2e05b8/", 
+      "fin": "2015-12-09", 
+      "uuid": "5acf0b00-cfd5-46d4-8dcb-91084f2e05b8", 
+      "inicio": "2011-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/7108439f-192e-4e15-81fb-3a74c72378eb/", 
+      "fin": "2015-12-09", 
+      "uuid": "7108439f-192e-4e15-81fb-3a74c72378eb", 
+      "inicio": "2011-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/688a7c94-a70f-481e-9ebb-7a3669084d11/", 
+      "fin": "2015-12-09", 
+      "uuid": "688a7c94-a70f-481e-9ebb-7a3669084d11", 
+      "inicio": "2011-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/6ac4966a-84d1-4149-a7ec-dc63c917ea35/", 
+      "fin": "2015-12-09", 
+      "uuid": "6ac4966a-84d1-4149-a7ec-dc63c917ea35", 
+      "inicio": "2011-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/98f68457-c834-402e-b957-3c38a6936c83/", 
+      "fin": "2015-12-09", 
+      "uuid": "98f68457-c834-402e-b957-3c38a6936c83", 
+      "inicio": "2011-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/f54f93c5-1a66-49eb-ac4a-d04e81c06b32/", 
+      "fin": "2015-12-09", 
+      "uuid": "f54f93c5-1a66-49eb-ac4a-d04e81c06b32", 
+      "inicio": "2011-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/acafc672-2a41-442e-9798-a81b94f5acaa/", 
+      "fin": "2015-12-09", 
+      "uuid": "acafc672-2a41-442e-9798-a81b94f5acaa", 
+      "inicio": "2011-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/34601d59-770c-4ea9-839f-90f4a06be51c/", 
+      "fin": "2015-12-09", 
+      "uuid": "34601d59-770c-4ea9-839f-90f4a06be51c", 
+      "inicio": "2011-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/95847645-f4da-4a1b-84ef-e42ac425881d/", 
+      "fin": "2015-12-09", 
+      "uuid": "95847645-f4da-4a1b-84ef-e42ac425881d", 
+      "inicio": "2011-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/b87569ad-5342-41eb-b859-5bbbba9c8a5a/", 
+      "fin": "2015-12-09", 
+      "uuid": "b87569ad-5342-41eb-b859-5bbbba9c8a5a", 
+      "inicio": "2011-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/157e6fc1-56a8-42f2-97ea-3b4f9c9ea282/", 
+      "fin": "2015-12-09", 
+      "uuid": "157e6fc1-56a8-42f2-97ea-3b4f9c9ea282", 
+      "inicio": "2011-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/a9a64b4a-028b-4b78-bcfe-48403ef6ea6b/", 
+      "fin": "2015-12-09", 
+      "uuid": "a9a64b4a-028b-4b78-bcfe-48403ef6ea6b", 
+      "inicio": "2011-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/2819daee-d106-4e18-a58a-3ce75367b249/", 
+      "fin": "2015-12-09", 
+      "uuid": "2819daee-d106-4e18-a58a-3ce75367b249", 
+      "inicio": "2011-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/67c99357-7f19-4bf3-9c15-059cd618f406/", 
+      "fin": "2015-12-09", 
+      "uuid": "67c99357-7f19-4bf3-9c15-059cd618f406", 
+      "inicio": "2011-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/c7c59573-405a-49d7-880e-7be07ef1d274/", 
+      "fin": "2015-12-09", 
+      "uuid": "c7c59573-405a-49d7-880e-7be07ef1d274", 
+      "inicio": "2011-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/94b5ac7e-a6cd-4cf9-83b5-384246b1d4c9/", 
+      "fin": "2015-12-09", 
+      "uuid": "94b5ac7e-a6cd-4cf9-83b5-384246b1d4c9", 
+      "inicio": "2011-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/fe8bc7e6-1b7c-4e65-a67b-52f13e173948/", 
+      "fin": "2015-12-09", 
+      "uuid": "fe8bc7e6-1b7c-4e65-a67b-52f13e173948", 
+      "inicio": "2011-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/3b2d6be0-73f7-4a45-82c6-dd4ce194dbf8/", 
+      "fin": "2015-12-09", 
+      "uuid": "3b2d6be0-73f7-4a45-82c6-dd4ce194dbf8", 
+      "inicio": "2011-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/8b235242-3273-4a58-9001-03b3cd7a78de/", 
+      "fin": "2015-12-09", 
+      "uuid": "8b235242-3273-4a58-9001-03b3cd7a78de", 
+      "inicio": "2011-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/672aafa4-0b71-4a61-a47d-5c2bdc06d4c8/", 
+      "fin": "2015-12-09", 
+      "uuid": "672aafa4-0b71-4a61-a47d-5c2bdc06d4c8", 
+      "inicio": "2011-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/078f84bd-e298-4895-b41a-435337752a9f/", 
+      "fin": "2015-12-09", 
+      "uuid": "078f84bd-e298-4895-b41a-435337752a9f", 
+      "inicio": "2011-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/d03a2ab0-e46c-4b0a-81f2-88d852e40345/", 
+      "fin": "2015-12-09", 
+      "uuid": "d03a2ab0-e46c-4b0a-81f2-88d852e40345", 
+      "inicio": "2011-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/440fa915-bc24-402a-8526-58fdd73f60c0/", 
+      "fin": "2015-12-09", 
+      "uuid": "440fa915-bc24-402a-8526-58fdd73f60c0", 
+      "inicio": "2011-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/acc8138e-1d64-4583-bded-2bd4b17264c6/", 
+      "fin": "2015-12-09", 
+      "uuid": "acc8138e-1d64-4583-bded-2bd4b17264c6", 
+      "inicio": "2011-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/971c9910-afd4-43cf-84bc-ab9f9336f975/", 
+      "fin": "2015-12-09", 
+      "uuid": "971c9910-afd4-43cf-84bc-ab9f9336f975", 
+      "inicio": "2011-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/7436a14b-1c73-40e2-a780-23971fb8d87a/", 
+      "fin": "2015-12-09", 
+      "uuid": "7436a14b-1c73-40e2-a780-23971fb8d87a", 
+      "inicio": "2011-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/1a4a6c10-4b57-47c6-aa6d-9b7f9fcfb3e1/", 
+      "fin": "2015-12-09", 
+      "uuid": "1a4a6c10-4b57-47c6-aa6d-9b7f9fcfb3e1", 
+      "inicio": "2011-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/7fa085ca-58c6-4f39-baca-f60a9a7db264/", 
+      "fin": "2015-12-09", 
+      "uuid": "7fa085ca-58c6-4f39-baca-f60a9a7db264", 
+      "inicio": "2011-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/472e366b-7e23-4d91-a58a-0d712ca822f5/", 
+      "fin": "2015-12-09", 
+      "uuid": "472e366b-7e23-4d91-a58a-0d712ca822f5", 
+      "inicio": "2011-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/d48629dd-56a5-4e33-adb4-d67944f5d986/", 
+      "fin": "2015-12-09", 
+      "uuid": "d48629dd-56a5-4e33-adb4-d67944f5d986", 
+      "inicio": "2011-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/ea11f01f-a3e7-45e5-a2ed-b405552a1e0d/", 
+      "fin": "2015-12-09", 
+      "uuid": "ea11f01f-a3e7-45e5-a2ed-b405552a1e0d", 
+      "inicio": "2011-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/27db19b9-822a-4d85-be5a-d7e369d49870/", 
+      "fin": "2015-12-09", 
+      "uuid": "27db19b9-822a-4d85-be5a-d7e369d49870", 
+      "inicio": "2011-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/5083a92c-8f73-4138-8faa-b9ac4b02792e/", 
+      "fin": "2015-12-09", 
+      "uuid": "5083a92c-8f73-4138-8faa-b9ac4b02792e", 
+      "inicio": "2011-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/92016e37-ea8a-43b2-8761-0cf02de4adef/", 
+      "fin": "2015-12-09", 
+      "uuid": "92016e37-ea8a-43b2-8761-0cf02de4adef", 
+      "inicio": "2011-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/b69e6c99-a26d-4b00-a3e3-1e23e4717e51/", 
+      "fin": "2015-12-09", 
+      "uuid": "b69e6c99-a26d-4b00-a3e3-1e23e4717e51", 
+      "inicio": "2011-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/30fa79bd-fb8f-469d-bda1-53a1cd4ae763/", 
+      "fin": "2015-12-09", 
+      "uuid": "30fa79bd-fb8f-469d-bda1-53a1cd4ae763", 
+      "inicio": "2011-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/f2a5e2de-e146-428f-9ac7-7e8e8a0bd0cb/", 
+      "fin": "2015-12-09", 
+      "uuid": "f2a5e2de-e146-428f-9ac7-7e8e8a0bd0cb", 
+      "inicio": "2011-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/1cd95366-938d-4a72-8763-88825b69f663/", 
+      "fin": "2015-12-09", 
+      "uuid": "1cd95366-938d-4a72-8763-88825b69f663", 
+      "inicio": "2011-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/e88ed203-b734-47c4-b112-871a453fe9f7/", 
+      "fin": "2015-12-09", 
+      "uuid": "e88ed203-b734-47c4-b112-871a453fe9f7", 
+      "inicio": "2011-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/6d05ce10-2ec4-4e74-ba69-9c8af399dde7/", 
+      "fin": "2015-12-09", 
+      "uuid": "6d05ce10-2ec4-4e74-ba69-9c8af399dde7", 
+      "inicio": "2011-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/85be5f4e-7a40-4785-a6f9-65644cb30ee2/", 
+      "fin": "2015-12-09", 
+      "uuid": "85be5f4e-7a40-4785-a6f9-65644cb30ee2", 
+      "inicio": "2011-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/8323ec17-d6fd-4210-b6b8-390bf3879033/", 
+      "fin": "2015-12-09", 
+      "uuid": "8323ec17-d6fd-4210-b6b8-390bf3879033", 
+      "inicio": "2011-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/efd5c9c6-5213-4537-9d04-721afa721635/", 
+      "fin": "2015-12-09", 
+      "uuid": "efd5c9c6-5213-4537-9d04-721afa721635", 
+      "inicio": "2011-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/d0381641-26fa-4e74-8dca-146ade13c066/", 
+      "fin": "2015-12-09", 
+      "uuid": "d0381641-26fa-4e74-8dca-146ade13c066", 
+      "inicio": "2011-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/8e07970f-b224-4ebf-b16e-55efc03f5179/", 
+      "fin": "2015-12-09", 
+      "uuid": "8e07970f-b224-4ebf-b16e-55efc03f5179", 
+      "inicio": "2011-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/8387b681-5768-40a0-9b71-636418f1387c/", 
+      "fin": "2015-12-09", 
+      "uuid": "8387b681-5768-40a0-9b71-636418f1387c", 
+      "inicio": "2011-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/6c7e1fd6-b291-49f9-887e-7d7d9a51549c/", 
+      "fin": "2015-12-09", 
+      "uuid": "6c7e1fd6-b291-49f9-887e-7d7d9a51549c", 
+      "inicio": "2011-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/f184d844-2585-4b87-af04-479424e16e0f/", 
+      "fin": "2015-12-09", 
+      "uuid": "f184d844-2585-4b87-af04-479424e16e0f", 
+      "inicio": "2011-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/64297d2a-cbd9-4540-b633-00b0a7644b1a/", 
+      "fin": "2015-12-09", 
+      "uuid": "64297d2a-cbd9-4540-b633-00b0a7644b1a", 
+      "inicio": "2011-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/9dab4b73-5950-4839-a44f-d84304a1b95f/", 
+      "fin": "2015-12-09", 
+      "uuid": "9dab4b73-5950-4839-a44f-d84304a1b95f", 
+      "inicio": "2011-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/31c4be7e-4f4f-4b56-9c5d-74cf0f222a83/", 
+      "fin": "2015-12-09", 
+      "uuid": "31c4be7e-4f4f-4b56-9c5d-74cf0f222a83", 
+      "inicio": "2011-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/80eb5cee-d881-4e89-a54a-fbb1dd22a4ef/", 
+      "fin": "2015-12-09", 
+      "uuid": "80eb5cee-d881-4e89-a54a-fbb1dd22a4ef", 
+      "inicio": "2011-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/2f785895-e148-440a-a95e-f0152d4cfedc/", 
+      "fin": "2015-12-09", 
+      "uuid": "2f785895-e148-440a-a95e-f0152d4cfedc", 
+      "inicio": "2011-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/3fb5374a-006c-4186-8ae3-0f3c38d3cbea/", 
+      "fin": "2015-12-09", 
+      "uuid": "3fb5374a-006c-4186-8ae3-0f3c38d3cbea", 
+      "inicio": "2011-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/72603478-5b1b-4f94-84d9-64b2f9751e58/", 
+      "fin": "2015-12-09", 
+      "uuid": "72603478-5b1b-4f94-84d9-64b2f9751e58", 
+      "inicio": "2011-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/9c7c8fbc-822d-4af5-9924-32acc4192a3f/", 
+      "fin": "2015-12-09", 
+      "uuid": "9c7c8fbc-822d-4af5-9924-32acc4192a3f", 
+      "inicio": "2011-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/856b9f72-2540-41bf-ad65-e89cac6f811a/", 
+      "fin": "2015-12-09", 
+      "uuid": "856b9f72-2540-41bf-ad65-e89cac6f811a", 
+      "inicio": "2011-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/c6f9a493-e981-4b87-b66d-73f67edecbb9/", 
+      "fin": "2015-12-09", 
+      "uuid": "c6f9a493-e981-4b87-b66d-73f67edecbb9", 
+      "inicio": "2011-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/08ce70b7-be59-4eaf-84f8-edf8d2674104/", 
+      "fin": "2015-12-09", 
+      "uuid": "08ce70b7-be59-4eaf-84f8-edf8d2674104", 
+      "inicio": "2011-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/d800a03c-77f0-4393-9bc0-9535dea87752/", 
+      "fin": "2015-12-09", 
+      "uuid": "d800a03c-77f0-4393-9bc0-9535dea87752", 
+      "inicio": "2011-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/5dd57a08-128c-44a2-96ca-b3a94fcfa408/", 
+      "fin": "2015-12-09", 
+      "uuid": "5dd57a08-128c-44a2-96ca-b3a94fcfa408", 
+      "inicio": "2011-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/d1f65504-d5c1-450a-9371-34c093317906/", 
+      "fin": "2015-12-09", 
+      "uuid": "d1f65504-d5c1-450a-9371-34c093317906", 
+      "inicio": "2011-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/9aa83260-eccb-4347-8f8c-9b864e25e063/", 
+      "fin": "2015-12-09", 
+      "uuid": "9aa83260-eccb-4347-8f8c-9b864e25e063", 
+      "inicio": "2011-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/af0b4f47-e725-4687-8b17-5cc9960ef0ce/", 
+      "fin": "2015-12-09", 
+      "uuid": "af0b4f47-e725-4687-8b17-5cc9960ef0ce", 
+      "inicio": "2011-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/8794a898-7fb9-4903-9cfa-9ce14fc4b857/", 
+      "fin": "2015-12-09", 
+      "uuid": "8794a898-7fb9-4903-9cfa-9ce14fc4b857", 
+      "inicio": "2011-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/c8863ef2-b50a-46de-be40-2a3de7b5da31/", 
+      "fin": "2015-12-09", 
+      "uuid": "c8863ef2-b50a-46de-be40-2a3de7b5da31", 
+      "inicio": "2011-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/42d1bfc7-e24c-40fd-866f-93f9560839a5/", 
+      "fin": "2013-12-09", 
+      "uuid": "42d1bfc7-e24c-40fd-866f-93f9560839a5", 
+      "inicio": "2011-12-12"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/459214c8-889f-4455-a550-5542fce216e2/", 
+      "fin": "2013-12-09", 
+      "uuid": "459214c8-889f-4455-a550-5542fce216e2", 
+      "inicio": "2011-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/4000728f-0f37-435c-b02e-43b4673c6cf3/", 
+      "fin": "2013-12-09", 
+      "uuid": "4000728f-0f37-435c-b02e-43b4673c6cf3", 
+      "inicio": "2010-11-03"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/1262787a-6081-4d08-8280-fdfa531fdc44/", 
+      "fin": "2013-12-09", 
+      "uuid": "1262787a-6081-4d08-8280-fdfa531fdc44", 
+      "inicio": "2009-12-14"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/b0cec0f8-1219-4a3d-9bd4-1b040261a5f6/", 
+      "fin": "2013-12-09", 
+      "uuid": "b0cec0f8-1219-4a3d-9bd4-1b040261a5f6", 
+      "inicio": "2009-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/d8baa496-0915-4c1f-ad4c-37912f95fcc6/", 
+      "fin": "2013-12-09", 
+      "uuid": "d8baa496-0915-4c1f-ad4c-37912f95fcc6", 
+      "inicio": "2009-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/58d9ea06-7b45-4da2-96cd-c3c2fb507848/", 
+      "fin": "2013-12-09", 
+      "uuid": "58d9ea06-7b45-4da2-96cd-c3c2fb507848", 
+      "inicio": "2009-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/9ff633ed-751f-4fdb-bd05-602996d54fe6/", 
+      "fin": "2013-12-09", 
+      "uuid": "9ff633ed-751f-4fdb-bd05-602996d54fe6", 
+      "inicio": "2009-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/c21041bd-0310-41f1-9701-973fe99767e5/", 
+      "fin": "2013-12-09", 
+      "uuid": "c21041bd-0310-41f1-9701-973fe99767e5", 
+      "inicio": "2009-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/fdd2a75e-0d33-40cf-a537-81a261da8dd3/", 
+      "fin": "2013-12-09", 
+      "uuid": "fdd2a75e-0d33-40cf-a537-81a261da8dd3", 
+      "inicio": "2009-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/f00a3acd-d7ed-4f7a-9848-a3009d20f035/", 
+      "fin": "2013-12-09", 
+      "uuid": "f00a3acd-d7ed-4f7a-9848-a3009d20f035", 
+      "inicio": "2009-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/4e5b07c7-0bb2-49ef-b3a1-1760ecbc50aa/", 
+      "fin": "2013-12-09", 
+      "uuid": "4e5b07c7-0bb2-49ef-b3a1-1760ecbc50aa", 
+      "inicio": "2009-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/76175d4e-c29c-40f0-8f49-0ee57a3e07e5/", 
+      "fin": "2013-12-09", 
+      "uuid": "76175d4e-c29c-40f0-8f49-0ee57a3e07e5", 
+      "inicio": "2009-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/0465dd6f-a456-4e95-8e06-fe166ac35df5/", 
+      "fin": "2013-12-09", 
+      "uuid": "0465dd6f-a456-4e95-8e06-fe166ac35df5", 
+      "inicio": "2009-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/b43f14ca-7361-4cea-af5a-b288064e6efc/", 
+      "fin": "2013-12-09", 
+      "uuid": "b43f14ca-7361-4cea-af5a-b288064e6efc", 
+      "inicio": "2009-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/a01a41b2-5caf-429c-88b1-c9c88fd1ea8b/", 
+      "fin": "2013-12-09", 
+      "uuid": "a01a41b2-5caf-429c-88b1-c9c88fd1ea8b", 
+      "inicio": "2009-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/a296e61d-2396-4347-a233-a017d5359f7f/", 
+      "fin": "2013-12-09", 
+      "uuid": "a296e61d-2396-4347-a233-a017d5359f7f", 
+      "inicio": "2009-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/10b7b166-dacb-483e-973d-861c3eccae89/", 
+      "fin": "2013-12-09", 
+      "uuid": "10b7b166-dacb-483e-973d-861c3eccae89", 
+      "inicio": "2009-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/1a7cad58-1a8f-428a-b620-cd378f950035/", 
+      "fin": "2013-12-09", 
+      "uuid": "1a7cad58-1a8f-428a-b620-cd378f950035", 
+      "inicio": "2009-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/24eb672a-55e4-4181-894b-3aa388475718/", 
+      "fin": "2013-12-09", 
+      "uuid": "24eb672a-55e4-4181-894b-3aa388475718", 
+      "inicio": "2009-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/0e11b0b3-35e5-4cc4-94b5-edb030371b8e/", 
+      "fin": "2013-12-09", 
+      "uuid": "0e11b0b3-35e5-4cc4-94b5-edb030371b8e", 
+      "inicio": "2009-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/9ebf8d48-756a-48ce-a69c-3c87ab498ecc/", 
+      "fin": "2013-12-09", 
+      "uuid": "9ebf8d48-756a-48ce-a69c-3c87ab498ecc", 
+      "inicio": "2009-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/57c064d9-c781-4c34-8001-ef865dc76ff8/", 
+      "fin": "2013-12-09", 
+      "uuid": "57c064d9-c781-4c34-8001-ef865dc76ff8", 
+      "inicio": "2009-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/9e1f1e7e-1a82-4eb4-b581-ac2870ab24c0/", 
+      "fin": "2013-12-09", 
+      "uuid": "9e1f1e7e-1a82-4eb4-b581-ac2870ab24c0", 
+      "inicio": "2009-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/8b729ce9-4eb4-42be-a79b-2fc80337dee5/", 
+      "fin": "2013-12-09", 
+      "uuid": "8b729ce9-4eb4-42be-a79b-2fc80337dee5", 
+      "inicio": "2009-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/626d6192-8925-47b9-aa23-d0f99d5e5677/", 
+      "fin": "2013-12-09", 
+      "uuid": "626d6192-8925-47b9-aa23-d0f99d5e5677", 
+      "inicio": "2009-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/30c3cf3f-a39d-45d9-9542-411053f111aa/", 
+      "fin": "2013-12-09", 
+      "uuid": "30c3cf3f-a39d-45d9-9542-411053f111aa", 
+      "inicio": "2009-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/0854c919-4537-45df-8628-2c154b0e0c81/", 
+      "fin": "2013-12-09", 
+      "uuid": "0854c919-4537-45df-8628-2c154b0e0c81", 
+      "inicio": "2009-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/fe957f57-02cd-4428-bc88-71cdd15b4d56/", 
+      "fin": "2013-12-09", 
+      "uuid": "fe957f57-02cd-4428-bc88-71cdd15b4d56", 
+      "inicio": "2009-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/d28d9980-e3a4-4ff9-aeb2-607e7a77f9ac/", 
+      "fin": "2013-12-09", 
+      "uuid": "d28d9980-e3a4-4ff9-aeb2-607e7a77f9ac", 
+      "inicio": "2009-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/d9cd065a-2720-496a-91c4-f41b428e7ff4/", 
+      "fin": "2013-12-09", 
+      "uuid": "d9cd065a-2720-496a-91c4-f41b428e7ff4", 
+      "inicio": "2009-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/be41a82b-214f-4ab6-b892-94f12c6b0a6d/", 
+      "fin": "2013-12-09", 
+      "uuid": "be41a82b-214f-4ab6-b892-94f12c6b0a6d", 
+      "inicio": "2009-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/0793930c-ba7d-4804-a536-1c3b21432a3b/", 
+      "fin": "2013-12-09", 
+      "uuid": "0793930c-ba7d-4804-a536-1c3b21432a3b", 
+      "inicio": "2009-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/30623dd3-644c-4b17-8e2e-6d9b1c527c5f/", 
+      "fin": "2013-12-09", 
+      "uuid": "30623dd3-644c-4b17-8e2e-6d9b1c527c5f", 
+      "inicio": "2009-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/d2d969d0-6a1d-4446-b425-112dc49f4b8c/", 
+      "fin": "2013-12-09", 
+      "uuid": "d2d969d0-6a1d-4446-b425-112dc49f4b8c", 
+      "inicio": "2009-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/264bdde6-a4ec-4efd-944b-84eb729c0b1b/", 
+      "fin": "2013-12-09", 
+      "uuid": "264bdde6-a4ec-4efd-944b-84eb729c0b1b", 
+      "inicio": "2009-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/31dee1a6-085e-4c3a-9326-996421c93f9e/", 
+      "fin": "2013-12-09", 
+      "uuid": "31dee1a6-085e-4c3a-9326-996421c93f9e", 
+      "inicio": "2009-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/6fce01de-6fb9-43fb-9dcc-ebca1c9865ad/", 
+      "fin": "2013-12-09", 
+      "uuid": "6fce01de-6fb9-43fb-9dcc-ebca1c9865ad", 
+      "inicio": "2009-12-10"
+     }
+    }
+   ], 
+   "uuid": "9a51ab42-0ae2-4b62-ba86-a8e051ce638f"
+  }
+ }
+}

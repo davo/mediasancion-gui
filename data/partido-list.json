@@ -1,0 +1,217 @@
+{
+ "status": "OK", 
+ "payload": {
+  "partidos": [
+   {
+    "partido": {
+     "url": "/api/0/partidos/1e924063-9fef-4f10-9b20-4da209541024/", 
+     "nombre": "Alianza Frente Popular Riojano", 
+     "uuid": "1e924063-9fef-4f10-9b20-4da209541024"
+    }
+   }, 
+   {
+    "partido": {
+     "url": "/api/0/partidos/97a4222b-4299-483c-ace1-ad4b40cb4c94/", 
+     "nombre": "Alianza Frente para la Victoria", 
+     "uuid": "97a4222b-4299-483c-ace1-ad4b40cb4c94"
+    }
+   }, 
+   {
+    "partido": {
+     "url": "/api/0/partidos/47c3085c-27b3-440a-83ca-dc9c8047b444/", 
+     "nombre": "Frente para la Victoria", 
+     "uuid": "47c3085c-27b3-440a-83ca-dc9c8047b444"
+    }
+   }, 
+   {
+    "partido": {
+     "url": "/api/0/partidos/fdc75bb3-de45-4222-bfdb-1d79ab1d1c8f/", 
+     "nombre": "Alianza Compromiso Federal", 
+     "uuid": "fdc75bb3-de45-4222-bfdb-1d79ab1d1c8f"
+    }
+   }, 
+   {
+    "partido": {
+     "url": "/api/0/partidos/69542ebd-174f-498b-a93f-827a3372df60/", 
+     "nombre": "Encuentro por Corrientes (a.c. y S.)", 
+     "uuid": "69542ebd-174f-498b-a93f-827a3372df60"
+    }
+   }, 
+   {
+    "partido": {
+     "url": "/api/0/partidos/ebae7c54-9eff-4bbd-84b4-2abe90ffe600/", 
+     "nombre": "Alianza Frente Just. Chaco Merece M\u00e1s", 
+     "uuid": "ebae7c54-9eff-4bbd-84b4-2abe90ffe600"
+    }
+   }, 
+   {
+    "partido": {
+     "url": "/api/0/partidos/f694f117-dfe2-41ab-adda-27e0a5429155/", 
+     "nombre": "Alianza Coalici\u00f3n C\u00edvica", 
+     "uuid": "f694f117-dfe2-41ab-adda-27e0a5429155"
+    }
+   }, 
+   {
+    "partido": {
+     "url": "/api/0/partidos/683d3fe8-2a1a-4516-a03c-98c9201962c6/", 
+     "nombre": "Uni\u00f3n C\u00edvica Radical", 
+     "uuid": "683d3fe8-2a1a-4516-a03c-98c9201962c6"
+    }
+   }, 
+   {
+    "partido": {
+     "url": "/api/0/partidos/9fe295cf-7c35-47f0-aa19-47d987c7520d/", 
+     "nombre": "Frente Acuerdo C\u00edvico y Social", 
+     "uuid": "9fe295cf-7c35-47f0-aa19-47d987c7520d"
+    }
+   }, 
+   {
+    "partido": {
+     "url": "/api/0/partidos/3df22ac9-1e07-4157-aa74-4dbdefccc6c2/", 
+     "nombre": "Frente Renovador de la Concordia", 
+     "uuid": "3df22ac9-1e07-4157-aa74-4dbdefccc6c2"
+    }
+   }, 
+   {
+    "partido": {
+     "url": "/api/0/partidos/ebb2dfac-e3e0-4bbe-a3fc-32f8dafd5944/", 
+     "nombre": "Movimiento Santiago Viable", 
+     "uuid": "ebb2dfac-e3e0-4bbe-a3fc-32f8dafd5944"
+    }
+   }, 
+   {
+    "partido": {
+     "url": "/api/0/partidos/42589e0d-639e-4b34-8384-1120f359cff2/", 
+     "nombre": "Alianza Frente C\u00edvico y Social", 
+     "uuid": "42589e0d-639e-4b34-8384-1120f359cff2"
+    }
+   }, 
+   {
+    "partido": {
+     "url": "/api/0/partidos/2d97a3ea-5b3b-4b22-a520-1eacc97be56c/", 
+     "nombre": "Unidad Federalista", 
+     "uuid": "2d97a3ea-5b3b-4b22-a520-1eacc97be56c"
+    }
+   }, 
+   {
+    "partido": {
+     "url": "/api/0/partidos/bd0ad168-3605-4ddb-899f-3ff63274a4d4/", 
+     "nombre": "Frente por la Integraci\u00f3n", 
+     "uuid": "bd0ad168-3605-4ddb-899f-3ff63274a4d4"
+    }
+   }, 
+   {
+    "partido": {
+     "url": "/api/0/partidos/90521c3a-f63f-4495-ae3c-02b9c3171d97/", 
+     "nombre": "Justicialista", 
+     "uuid": "90521c3a-f63f-4495-ae3c-02b9c3171d97"
+    }
+   }, 
+   {
+    "partido": {
+     "url": "/api/0/partidos/f29db90d-2cf7-4143-984a-3916002394d8/", 
+     "nombre": "Alianza Concertaci\u00f3n para el Desarrollo", 
+     "uuid": "f29db90d-2cf7-4143-984a-3916002394d8"
+    }
+   }, 
+   {
+    "partido": {
+     "url": "/api/0/partidos/d9cf5210-04ea-4ce0-a3a2-a6a9a6b0f254/", 
+     "nombre": "Alianza Frente Justicialista P/la Victoria", 
+     "uuid": "d9cf5210-04ea-4ce0-a3a2-a6a9a6b0f254"
+    }
+   }, 
+   {
+    "partido": {
+     "url": "/api/0/partidos/6fe02893-12dd-4852-ae29-310c50b5b332/", 
+     "nombre": "Alianza Frente C\u00edvico Federal Ucr-confe", 
+     "uuid": "6fe02893-12dd-4852-ae29-310c50b5b332"
+    }
+   }, 
+   {
+    "partido": {
+     "url": "/api/0/partidos/bf6a479f-ad52-46fd-bc51-9fa5c4dddb50/", 
+     "nombre": "Alianza Santa Fe Federal", 
+     "uuid": "bf6a479f-ad52-46fd-bc51-9fa5c4dddb50"
+    }
+   }, 
+   {
+    "partido": {
+     "url": "/api/0/partidos/9ce67a13-ea08-4898-a916-0ee262f2a1ec/", 
+     "nombre": "Frente C\u00edvico por Santiago", 
+     "uuid": "9ce67a13-ea08-4898-a916-0ee262f2a1ec"
+    }
+   }, 
+   {
+    "partido": {
+     "url": "/api/0/partidos/196270aa-b060-41bc-b2aa-85a20f917a7e/", 
+     "nombre": "Alianza Frente de Todos", 
+     "uuid": "196270aa-b060-41bc-b2aa-85a20f917a7e"
+    }
+   }, 
+   {
+    "partido": {
+     "url": "/api/0/partidos/640a24d3-25d1-4c55-a1c1-9bff6b0bda11/", 
+     "nombre": "Alianza Frente para la Victoria - Partido Renovador de Salta", 
+     "uuid": "640a24d3-25d1-4c55-a1c1-9bff6b0bda11"
+    }
+   }, 
+   {
+    "partido": {
+     "url": "/api/0/partidos/592f9c44-7bb8-4bef-bfa4-0f0a828b995c/", 
+     "nombre": "Alianza Frente C\u00edvico", 
+     "uuid": "592f9c44-7bb8-4bef-bfa4-0f0a828b995c"
+    }
+   }, 
+   {
+    "partido": {
+     "url": "/api/0/partidos/10d1687f-00b0-4542-b25d-5c53a6d2d325/", 
+     "nombre": "Alianza Partido Justicialista - Frente Justicialista para la Victoria", 
+     "uuid": "10d1687f-00b0-4542-b25d-5c53a6d2d325"
+    }
+   }, 
+   {
+    "partido": {
+     "url": "/api/0/partidos/c378c547-b9ac-4c4f-b970-23265b5c12c6/", 
+     "nombre": "Alianza Frente para la Victoria Riojano", 
+     "uuid": "c378c547-b9ac-4c4f-b970-23265b5c12c6"
+    }
+   }, 
+   {
+    "partido": {
+     "url": "/api/0/partidos/27c7f613-275b-4a53-88b0-21c060189d26/", 
+     "nombre": "Afirmaci\u00f3n para Una Rep\u00fablica Igualitaria", 
+     "uuid": "27c7f613-275b-4a53-88b0-21c060189d26"
+    }
+   }, 
+   {
+    "partido": {
+     "url": "/api/0/partidos/88027516-905b-417b-849f-049adac5bcda/", 
+     "nombre": "Movimiento Popular Neuquino", 
+     "uuid": "88027516-905b-417b-849f-049adac5bcda"
+    }
+   }, 
+   {
+    "partido": {
+     "url": "/api/0/partidos/de6a0647-c90b-4a82-90dd-9c92588a3856/", 
+     "nombre": "Frente Amplio Progresista", 
+     "uuid": "de6a0647-c90b-4a82-90dd-9c92588a3856"
+    }
+   }, 
+   {
+    "partido": {
+     "url": "/api/0/partidos/0e3c59f9-4a7d-4460-bd0e-f566b421a289/", 
+     "nombre": "Alianza Frente Pampeano C\u00edvico y Social", 
+     "uuid": "0e3c59f9-4a7d-4460-bd0e-f566b421a289"
+    }
+   }, 
+   {
+    "partido": {
+     "url": "/api/0/partidos/8b629260-628e-4cfa-a986-f395ba5b475b/", 
+     "nombre": "Frente Progresista C\u00edvico y Social", 
+     "uuid": "8b629260-628e-4cfa-a986-f395ba5b475b"
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,175 @@
+{
+ "status": "OK", 
+ "payload": {
+  "distritos": [
+   {
+    "distrito": {
+     "url": "/api/0/distritos/26c38481-1093-49e9-9023-bdb92a6401ec/", 
+     "nombre": "Entre R\u00edos", 
+     "uuid": "26c38481-1093-49e9-9023-bdb92a6401ec"
+    }
+   }, 
+   {
+    "distrito": {
+     "url": "/api/0/distritos/19814618-dd3f-470c-9644-aa6e56a5a994/", 
+     "nombre": "R\u00edo Negro", 
+     "uuid": "19814618-dd3f-470c-9644-aa6e56a5a994"
+    }
+   }, 
+   {
+    "distrito": {
+     "url": "/api/0/distritos/19651e2e-0c8d-4e2c-99a4-231ff00f6a27/", 
+     "nombre": "Santa F\u00e9", 
+     "uuid": "19651e2e-0c8d-4e2c-99a4-231ff00f6a27"
+    }
+   }, 
+   {
+    "distrito": {
+     "url": "/api/0/distritos/19dd4126-afae-418e-a089-9dfaa2699898/", 
+     "nombre": "Buenos Aires", 
+     "uuid": "19dd4126-afae-418e-a089-9dfaa2699898"
+    }
+   }, 
+   {
+    "distrito": {
+     "url": "/api/0/distritos/81c478c7-7cae-4da2-87f2-0c6aaac957cf/", 
+     "nombre": "Santiago del Estero", 
+     "uuid": "81c478c7-7cae-4da2-87f2-0c6aaac957cf"
+    }
+   }, 
+   {
+    "distrito": {
+     "url": "/api/0/distritos/c18bc430-1d66-40a3-86e0-8a2ae8fd2734/", 
+     "nombre": "Corrientes", 
+     "uuid": "c18bc430-1d66-40a3-86e0-8a2ae8fd2734"
+    }
+   }, 
+   {
+    "distrito": {
+     "url": "/api/0/distritos/43ac1fa4-10fc-4172-b2c4-fd79b116c3ae/", 
+     "nombre": "La Pampa", 
+     "uuid": "43ac1fa4-10fc-4172-b2c4-fd79b116c3ae"
+    }
+   }, 
+   {
+    "distrito": {
+     "url": "/api/0/distritos/20f9f616-e2f7-40a8-9020-866129c4ac9f/", 
+     "nombre": "Santa Cruz", 
+     "uuid": "20f9f616-e2f7-40a8-9020-866129c4ac9f"
+    }
+   }, 
+   {
+    "distrito": {
+     "url": "/api/0/distritos/7645a6a8-ae39-4a49-8fe8-406c062eefb0/", 
+     "nombre": "Ciudad Aut\u00f3noma de Buenos Aires", 
+     "uuid": "7645a6a8-ae39-4a49-8fe8-406c062eefb0"
+    }
+   }, 
+   {
+    "distrito": {
+     "url": "/api/0/distritos/705ab6ce-643d-4f7c-8129-8b97e2eed487/", 
+     "nombre": "Catamarca", 
+     "uuid": "705ab6ce-643d-4f7c-8129-8b97e2eed487"
+    }
+   }, 
+   {
+    "distrito": {
+     "url": "/api/0/distritos/d29ac64e-c5cc-4e74-adfd-15729ec173c7/", 
+     "nombre": "La Rioja", 
+     "uuid": "d29ac64e-c5cc-4e74-adfd-15729ec173c7"
+    }
+   }, 
+   {
+    "distrito": {
+     "url": "/api/0/distritos/7f449c78-f4a9-46a5-a945-751bc7939af9/", 
+     "nombre": "Salta", 
+     "uuid": "7f449c78-f4a9-46a5-a945-751bc7939af9"
+    }
+   }, 
+   {
+    "distrito": {
+     "url": "/api/0/distritos/8066dba2-6ae7-4e72-b153-8b3fc32bfe7b/", 
+     "nombre": "Misiones", 
+     "uuid": "8066dba2-6ae7-4e72-b153-8b3fc32bfe7b"
+    }
+   }, 
+   {
+    "distrito": {
+     "url": "/api/0/distritos/1ad4abda-0fbf-4fbd-84f3-bded92270720/", 
+     "nombre": "Chubut", 
+     "uuid": "1ad4abda-0fbf-4fbd-84f3-bded92270720"
+    }
+   }, 
+   {
+    "distrito": {
+     "url": "/api/0/distritos/be40c68c-4ec6-4baa-b3ca-bb5c92e03f69/", 
+     "nombre": "San Juan", 
+     "uuid": "be40c68c-4ec6-4baa-b3ca-bb5c92e03f69"
+    }
+   }, 
+   {
+    "distrito": {
+     "url": "/api/0/distritos/ad1c9de0-6e71-49fb-b922-e8a10a92d49f/", 
+     "nombre": "Mendoza", 
+     "uuid": "ad1c9de0-6e71-49fb-b922-e8a10a92d49f"
+    }
+   }, 
+   {
+    "distrito": {
+     "url": "/api/0/distritos/dd0deab0-537e-4803-8520-dfa9841f3918/", 
+     "nombre": "San Luis", 
+     "uuid": "dd0deab0-537e-4803-8520-dfa9841f3918"
+    }
+   }, 
+   {
+    "distrito": {
+     "url": "/api/0/distritos/e47d42e8-b50c-40b7-8eb6-31c3d7b24fa3/", 
+     "nombre": "C\u00f3rdoba", 
+     "uuid": "e47d42e8-b50c-40b7-8eb6-31c3d7b24fa3"
+    }
+   }, 
+   {
+    "distrito": {
+     "url": "/api/0/distritos/62b87564-2777-4eec-85a6-2d3d4a010c1f/", 
+     "nombre": "Neuquen", 
+     "uuid": "62b87564-2777-4eec-85a6-2d3d4a010c1f"
+    }
+   }, 
+   {
+    "distrito": {
+     "url": "/api/0/distritos/a92e9de4-5713-4a70-859b-dc53163102ab/", 
+     "nombre": "Chaco", 
+     "uuid": "a92e9de4-5713-4a70-859b-dc53163102ab"
+    }
+   }, 
+   {
+    "distrito": {
+     "url": "/api/0/distritos/08e6c828-111c-420d-9051-11315b344fcc/", 
+     "nombre": "Tucum\u00e1n", 
+     "uuid": "08e6c828-111c-420d-9051-11315b344fcc"
+    }
+   }, 
+   {
+    "distrito": {
+     "url": "/api/0/distritos/92b6b0a9-e552-4d39-8f44-e1c870162671/", 
+     "nombre": "Tierra del Fuego", 
+     "uuid": "92b6b0a9-e552-4d39-8f44-e1c870162671"
+    }
+   }, 
+   {
+    "distrito": {
+     "url": "/api/0/distritos/15aa3fd3-46d2-4059-9c9c-07b516b9c3eb/", 
+     "nombre": "Jujuy", 
+     "uuid": "15aa3fd3-46d2-4059-9c9c-07b516b9c3eb"
+    }
+   }, 
+   {
+    "distrito": {
+     "url": "/api/0/distritos/8d3fb6e8-4072-4741-a9db-b92794391807/", 
+     "nombre": "Formosa", 
+     "uuid": "8d3fb6e8-4072-4741-a9db-b92794391807"
+    }
+   }
+  ]
+ }
+}
