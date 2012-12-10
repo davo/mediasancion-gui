@@ -51,12 +51,12 @@ header .container {
   }
 
 
-.lead {
+header .lead {
   position: relative;
   margin-top: -45px;
   margin-left: 112px;
   color: #969696;
-  font-size: 12px !important;
+  font-size: 12px;
   font-weight: normal;
   letter-spacing: -.05em;
   color: ;

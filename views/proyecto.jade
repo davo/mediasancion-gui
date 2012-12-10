@@ -2,23 +2,12 @@ extends layout
 
 block content
   .container
-      h1 Proyectos
+      h1 Proyecto
+      - var proyecto = proyecto.payload.proyecto
+      .jumbotron
+       p.lead Fecha: #{proyecto.publicacion_fecha}
+      .row-fluid
+       .span6
+        h4 Sumario
+        p #{proyecto.sumario}
 
-      .bs-docs-example
-       table.table.table-bordered
-        thead
-          tr
-            th ID
-            th Nombre del proyecto
-            th Comisión
-            th Fecha
-        tbody
-        - var proyecto = proyecto.payload.proyecto
-          tr
-            td
-             a(href=proyecto.url)
-              | Link
-            td
-             | proyecto.uuid
-            td Contenido
-            td 11/10/2012

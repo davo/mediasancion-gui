@@ -39,6 +39,7 @@ app.configure('development', function(){
 app.get('/', routes.index);
 app.get('/acerca', routes.acerca);
 app.get('/proyectos', routes.proyectos);
+app.get('/proyectos/:page_id', routes.proyectosPageId);
 app.get('/legisladores', routes.legisladores);
 app.get('/comisiones', routes.comisiones);
 app.get('/proyecto/:project_id', routes.proyecto);
