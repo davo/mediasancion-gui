@@ -3,13 +3,15 @@
  * Module dependencies
  */
 
-var fs = require('fs');
+//var fs = require('fs');
 var request = require('superagent');
 var projectList, projectUniqueId;
 
-projectList = 'http://198.74.50.217:8011/api/0/proyectos/?format=json';
+var projectList = 'http://198.74.50.217:8011/api/0/proyectos/?format=json';
 
-projectUniqueId = 'http://198.74.50.217:8011/api/0/proyectos/'+proyecto.proyecto.uuid+'/?format=json';
+var projectUniqueId = function(uuid){ 
+  return 'http://198.74.50.217:8011/api/0/proyectos/'+uuid+'/?format=json';
+};
 
 /*
 * GET home page.
@@ -31,13 +33,13 @@ exports.acerca = function(req, res){
 // };
 
 exports.proyectos = function(req, res){
-  request('projectList', function(resp){
+  request(projectList, function(resp){
   	res.render('proyectos', { title: 'Media Sanción | Proyectos', proyectos: resp.body });
   });
 };
 
 exports.proyecto = function(req, res){
-  request('projectUniqueId', function(resp){
+  request(projectUniqueId(req.params.project_id), function(resp){
   	res.render('proyecto', { title: 'Media Sanción | Proyectos', proyecto: resp.body });
   });
 };

@@ -13,12 +13,12 @@ block content
             th Comisión
             th Fecha
         tbody
-        each proyecto in proyectos.payload.proyectos
+        - var proyecto = proyecto.payload.proyecto
           tr
             td
-             a(href=proyecto.proyecto.url)
+             a(href=proyecto.url)
               | Link
             td
-             | proyecto.proyecto.uuid
+             | proyecto.uuid
             td Contenido
             td 11/10/2012
