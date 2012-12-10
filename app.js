@@ -41,6 +41,7 @@ app.get('/acerca', routes.acerca);
 app.get('/proyectos', routes.proyectos);
 app.get('/legisladores', routes.legisladores);
 app.get('/comisiones', routes.comisiones);
+app.get('/proyecto/:projectUniqueId');
 
 // Listener
 http.createServer(app).listen(app.get('port'), function(){
