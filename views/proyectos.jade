@@ -8,10 +8,8 @@ block content
        table.table.table-bordered
         thead
           tr
-            th ID
-            th Nombre del proyecto
-            th Comisión
-            th Fecha
+            th Ver proyecto
+            th Id Interna del proyecto
         tbody
         each proyecto in proyectos.payload.proyectos
           tr
@@ -20,5 +18,10 @@ block content
               | Link
             td
              #{proyecto.proyecto.uuid}
-            td Contenido
-            td 11/10/2012
+
+
+
+//      ul
+//       each link in proyectos.links
+//        li
+//         #{proyectos.links.link.href}

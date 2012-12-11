@@ -2,4 +2,23 @@ extends layout
 
 block content
   .container
-      h1 Comisiones
+      h1 Proyectos
+      ul
+       each link in comisiones.links
+        li
+         #{comisiones.links.link.href}
+
+      .bs-docs-example
+       table.table.table-bordered
+        thead
+          tr
+            th ID
+            th Nombre de la comision
+        tbody
+        each comision in comisiones.payload.comisiones
+          tr
+            td
+             a(href="/comision/"+comision.comision.uuid)
+              | Link
+            td
+             #{comision.comision.uuid}

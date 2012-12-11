@@ -2,4 +2,25 @@ extends layout
 
 block content
   .container
-      h1 Legisladores
+      h1 Proyectos
+      ul
+       each link in legisladores.links
+        li
+         #{legisladores.links.link.href}
+
+      .bs-docs-example
+       table.table.table-bordered
+        thead
+          tr
+            th ID
+            th Nombre del legislador
+            th Fecha
+        tbody
+        each legislador in legisladores.payload.legisladores
+          tr
+            td
+             a(href="/legislador/"+legislador.legislador.uuid)
+              | Link
+            td
+             #{legislador.legislador.uuid}
+            td 11/10/2012
