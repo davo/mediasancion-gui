@@ -3,13 +3,14 @@ extends layout
 block content
   .container
       h1 Proyectos
-
+      each link 
       .bs-docs-example
        table.table.table-bordered
         thead
           tr
             th Ver proyecto
-            th Id Interna del proyecto
+            th Sumario
+            th Fecha
         tbody
         each proyecto in proyectos.payload.proyectos
           tr
@@ -17,11 +18,6 @@ block content
              a(href="/proyecto/"+proyecto.proyecto.uuid)
               | Link
             td
-             #{proyecto.proyecto.uuid}
-
-
-
-//      ul
-//       each link in proyectos.links
-//        li
-//         #{proyectos.links.link.href}
+             | #{ proyecto.proyecto.sumario}
+            td
+             | #{ proyecto.proyecto.publicacion_fecha}
