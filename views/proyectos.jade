@@ -7,16 +7,27 @@ block content
        table.table.table-bordered
         thead
           tr
+            th Fecha
             th Ver proyecto
             th Sumario
-            th Fecha
         tbody
         each proyecto in proyectos.payload.proyectos
           tr
+            td
+             | #{ proyecto.proyecto.publicacion_fecha}
             td
              a(href="/proyecto/"+proyecto.proyecto.uuid)
               | Link
             td
              | #{ proyecto.proyecto.sumario}
-            td
-             | #{ proyecto.proyecto.publicacion_fecha}
+
+      .pagination
+       ul
+        li
+         a(href='#') Prev
+        each link in proyectos.payload.links
+         li
+          a(href='#') 
+        li
+         a(href='') Next
+
