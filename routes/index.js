@@ -4,7 +4,8 @@
  */
 
 //var fs = require('fs');
-var request = require('superagent');
+var request = require('superagent')
+  , qs = require('querystring');
 var projectList, projectUniqueId;
 
 var projectList = 'http://198.74.50.217:8011/api/0/proyectos/?fields=publicacion_fecha,sumario&format=json';
@@ -43,18 +44,18 @@ exports.acerca = function(req, res){
 
 exports.proyectos = function(req, res){
   request(projectList, function(resp){
-  	res.render('proyectos', { title: 'Media Sanción | Proyectos', proyectos: resp.body });
+  	res.render('proyectos', { title: 'Media Sanción | Proyectos', proyectos: resp.body , qs_parse: qs.parse });
   });
 };
 
 exports.proyectosPageId = function(req, res){
-  request(projectListPage(req.params.page_id), function(resp){
-  	res.render('proyectos', { title: 'Media Sanción | Proyectos', proyectos: resp.body });
+  request(projectListPage(req.params.page_id), function(resp){	
+    res.render('proyectos', { title: 'Media Sanción | Proyectos', proyectos: resp.body, qs_parse: qs.parse });
   });
 };
 
-exports.proyecto = function(req, res){
-  request(projectUniqueId(req.params.project_id), function(resp){
+exports.proyecto = function(req, res){  
+  request(projectUniqueId(req.params.project_id), function(resp){ 
   	res.render('proyecto', { title: 'Media Sanción | Proyectos', proyecto: resp.body });
   });
 };

@@ -20,11 +20,6 @@ block content
 
       .pagination
        ul
-        li
-         a(href='#') Prev
         each link in proyectos.links
           li
-            a(href='#') 
-        li
-          a(href='') Next
-
+            a(href='/proyectos/' + (qs_parse(link.link.href).page ||qs_parse(link.link.href)['/api/0/proyectos/?page'])) #{link.link.rel}
