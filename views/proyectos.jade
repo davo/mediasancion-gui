@@ -11,23 +11,20 @@ block content
             th Ver proyecto
             th Sumario
         tbody
-        each proyecto in proyectos.payload.proyectos
-          tr
-            td
-             | #{ proyecto.proyecto.publicacion_fecha}
-            td
-             a(href="/proyecto/"+proyecto.proyecto.uuid)
-              | Link
-            td
-             | #{ proyecto.proyecto.sumario}
+          each proyecto in proyectos.payload.proyectos
+            tr
+              td #{ proyecto.proyecto.publicacion_fecha}
+              td 
+                a(href="/proyecto/"+proyecto.proyecto.uuid) Link
+              td #{ proyecto.proyecto.sumario}
 
       .pagination
        ul
         li
          a(href='#') Prev
-        each link in proyectos.payload.links
-         li
-          a(href='#') 
+        each link in proyectos.links
+          li
+            a(href='#') 
         li
-         a(href='') Next
+          a(href='') Next
 
