@@ -14,6 +14,10 @@ var projectListPage = function(id){
   return 'http://198.74.50.217:8011/api/0/proyectos/?fields=publicacion_fecha,sumario&page='+id+'&format=json';
 };
 
+var projectSearchKeyword = function(keyword){ 
+  return 'http://198.74.50.217:8011/api/0/proyectos/?fields=publicacion_fecha,sumario&name='+keyword+'&format=json';
+};
+
 var projectUniqueId = function(uuid){ 
   return 'http://198.74.50.217:8011/api/0/proyectos/'+uuid+'/?format=json';
 };

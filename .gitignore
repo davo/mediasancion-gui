@@ -5,7 +5,9 @@ bin-release/
 node_modules
 .DS_Store
 .sublime-project
-src
+.sublime-workspace
+src/
+
 
 # Project property files
 .actionScriptProperties
