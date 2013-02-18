@@ -3,22 +3,23 @@ extends layout
 block content
   .container
       h1 Proyectos
-
       .bs-docs-example
        table.table.table-bordered
         thead
           tr
-            th ID
-            th Nombre del proyecto
-            th Comisión
             th Fecha
+            th Ver proyecto
+            th Sumario
         tbody
-        each proyecto in proyectos.payload.proyectos
-          tr
-            td
-             a(href="/proyecto/"+proyecto.proyecto.uuid)
-              | Link
-            td
-             #{proyecto.proyecto.uuid}
-            td Contenido
-            td 11/10/2012
+          each proyecto in proyectos.payload.proyectos
+            tr
+              td #{ proyecto.proyecto.publicacion_fecha}
+              td 
+                a(href="/proyecto/"+proyecto.proyecto.uuid) Link
+              td #{ proyecto.proyecto.sumario}
+
+      .pagination
+       ul
+        each link in proyectos.links
+          li
+            a(href='/proyectos/' + (qs_parse(link.link.href).page ||qs_parse(link.link.href)['/api/0/proyectos/?page'])) #{link.link.rel}
