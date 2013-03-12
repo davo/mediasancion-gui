@@ -8,15 +8,9 @@ block content
        table.table.table-bordered
         thead
           tr
-            th ID
             th Nombre del legislador
-            th Fecha
         tbody
         each legislador in legisladores.payload.legisladores
           tr
             td
-             a(href="/legislador/"+legislador.legislador.uuid)
-              | Link
-            td
-             #{legislador.legislador.uuid}
-            td 11/10/2012
+             #{legislador.legislador.persona}

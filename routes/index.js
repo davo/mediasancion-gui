@@ -8,7 +8,7 @@ var request = require('superagent')
   , qs = require('querystring');
 var projectList, projectUniqueId;
 
-var projectList = 'http://198.74.50.217:8011/api/0/proyectos/?fields=publicacion_fecha,sumario&format=json';
+var projectList = 'http://198.74.50.217:8011/api/0/proyectos/?format=json&fields=sumario,comisiones.nombre,publicacion_fecha';
 
 var projectListPage = function(id){ 
   return 'http://198.74.50.217:8011/api/0/proyectos/?fields=publicacion_fecha,sumario&page='+id+'&format=json';
@@ -22,7 +22,7 @@ var projectUniqueId = function(uuid){
   return 'http://198.74.50.217:8011/api/0/proyectos/'+uuid+'/?format=json';
 };
 
-var legislatorsList = 'http://198.74.50.217:8011/api/0/legisladores/?format=json';
+var legislatorsList = 'http://198.74.50.217:8011/api/0/legisladores/?format=json&fields=persona.nombre,persona.apellido';
 
 var comissionsList = 'http://198.74.50.217:8011/api/0/comisiones/?format=json';
 
