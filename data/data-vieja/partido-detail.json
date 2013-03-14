@@ -1,0 +1,28 @@
+{
+ "status": "OK", 
+ "payload": {
+  "partido": {
+   "url": "/api/0/partidos/1e924063-9fef-4f10-9b20-4da209541024/", 
+   "nombre": "Alianza Frente Popular Riojano", 
+   "legisladores": [
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/d824f8eb-2d8a-4ff5-85b1-0324722b3211/", 
+      "fin": "2017-12-09", 
+      "uuid": "d824f8eb-2d8a-4ff5-85b1-0324722b3211", 
+      "inicio": "2011-12-10"
+     }
+    }, 
+    {
+     "legislador": {
+      "url": "/api/0/legisladores/d1e703cf-2d12-4107-9633-357b3c4a2398/", 
+      "fin": "2017-12-09", 
+      "uuid": "d1e703cf-2d12-4107-9633-357b3c4a2398", 
+      "inicio": "2011-12-10"
+     }
+    }
+   ], 
+   "uuid": "1e924063-9fef-4f10-9b20-4da209541024"
+  }
+ }
+}

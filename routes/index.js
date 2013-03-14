@@ -8,7 +8,7 @@ var request = require('superagent')
   , qs = require('querystring');
 var projectList, projectUniqueId;
 
-var projectList = 'http://198.74.50.217:8011/api/0/proyectos/?format=json&fields=sumario,comisiones.nombre,publicacion_fecha';
+var projectList = 'http://anonymouse.org/cgi-bin/anon-www.cgi/http://198.74.50.217:8011/api/0/proyectos/?format=json&fields=sumario,comisiones.nombre,publicacion_fecha';
 
 var projectListPage = function(id){ 
   return 'http://198.74.50.217:8011/api/0/proyectos/?fields=publicacion_fecha,sumario&page='+id+'&format=json';
@@ -66,9 +66,21 @@ exports.proyecto = function(req, res){
 
 exports.legisladores = function(req, res){
   request(legislatorsList, function(resp){
-    res.render('legisladores', { title: 'Media Sanción | Legisladores', legisladores: resp.body });
+    res.locals.legisladores = resp.body,
+    console.log('FFFFUUUU'),
+    //console.dir(resp.body.payload.legisladores),
+    res.render('legisladores', {title: 'Media Sanción | Legisladores'});
   });
 };
+
+// exports.legisladores = function(req, res){
+// request.get(legislatorsList, function(resp){
+//   res.locals.legisladores = resp.body,
+//   console.log('FFFFUUUU'),
+//   console.dir(resp.body.payload.legisladores),
+//   res.render('legisladores', {title: 'Media Sanción | Legisladores'});
+// });
+// };
 
 exports.comisiones = function(req, res){
   request(comissionsList, function(resp){

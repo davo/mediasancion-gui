@@ -117,10 +117,10 @@ footer .container {
 }
 
 .arrow-box {
-  margin-top: 10px;
+  margin-top: 0px;
   margin-bottom: 20px;
   margin-right: 10px;
-  padding: 10px;
+  padding: 8px 0 9px 10px;
   position: relative;
  /* background: #AEB2B4;*/
 }
