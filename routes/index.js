@@ -22,6 +22,10 @@ var projectUniqueId = function(uuid){
   return 'http://198.74.50.217:8011/api/0/proyectos/'+uuid+'/?format=json';
 };
 
+var searchProjects = function(keys) {
+	return 'http://198.74.50.217:8011/api/0/proyectos/?format=json&sumario='+keys+'&fields=sumario,comisiones.nombre,publicacion_fecha';
+};
+
 var legislatorsList = 'http://198.74.50.217:8011/api/0/legisladores/?format=json&fields=persona.nombre,persona.apellido';
 
 var comissionsList = 'http://198.74.50.217:8011/api/0/comisiones/?format=json&fields=nombre';
@@ -89,4 +93,10 @@ exports.comisiones = function(req, res){
   request(comissionsList, function(resp){
     res.render('comisiones', { title: 'Media Sanción | Comisiones', comisiones: resp.body });
   });
+};
+
+exports.search = function(req, res) {
+	request(searchProjects(req.query.q), function(resp) {
+    res.render('proyectos', { title: 'Media Sanción | Proyectos', proyectos: resp.body, qs_parse: qs.parse });
+	});
 };
