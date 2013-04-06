@@ -11,7 +11,7 @@ var projectList, projectUniqueId;
 var projectList = 'http://anonymouse.org/cgi-bin/anon-www.cgi/http://198.74.50.217:8011/api/0/proyectos/?format=json&fields=sumario,comisiones.nombre,publicacion_fecha';
 
 var projectListPage = function(id){ 
-  return 'http://198.74.50.217:8011/api/0/proyectos/?fields=publicacion_fecha,sumario&page='+id+'&format=json';
+  return 'http://198.74.50.217:8011/api/0/proyectos/?page='+id+'&format=json&fields=sumario,comisiones.nombre,publicacion_fecha';
 };
 
 var projectSearchKeyword = function(keyword){ 
