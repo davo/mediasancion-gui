@@ -85,7 +85,7 @@ exports.comisiones = function(req, res){
 };
 
 exports.search = function(req, res) {
-	request(searchProjects(req.query.q), function(resp) {
+	request(searchProjects(req.query.cat,req.query.q), function(resp) {
     res.render('proyectos', { title: 'Media Sanción | Proyectos', proyectos: resp.body, qs_parse: qs.parse });
 	});
 };
