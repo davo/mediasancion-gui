@@ -12,5 +12,5 @@ block content
         tbody
         each legislador in legisladores.payload.legisladores
           tr
-            td
-             #{legislador.legislador.persona}
+            td 
+              p #{legislador.legislador.persona.nombre} #{legislador.legislador.persona.apellido}

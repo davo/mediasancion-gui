@@ -8,7 +8,7 @@ block content
        table.table.table-bordered
         thead
           tr
-            th ID
+            th ID Original
             th Nombre de la comision
         tbody
         each comision in comisiones.payload.comisiones
@@ -17,4 +17,4 @@ block content
              a(href="/comision/"+comision.comision.uuid)
               | Link
             td
-             #{comision.comision.uuid}
+             p #{comision.comision.nombre}

@@ -8,10 +8,10 @@ var request = require('superagent')
   , qs = require('querystring');
 var projectList, projectUniqueId;
 
-var projectList = 'http://anonymouse.org/cgi-bin/anon-www.cgi/http://198.74.50.217:8011/api/0/proyectos/?format=json&fields=sumario,comisiones.nombre,publicacion_fecha';
+var projectList = 'http://198.74.50.217:8011/api/0/proyectos/?format=json&fields=sumario,comisiones.nombre,publicacion_fecha';
 
 var projectListPage = function(id){ 
-  return 'http://198.74.50.217:8011/api/0/proyectos/?fields=publicacion_fecha,sumario&page='+id+'&format=json';
+  return 'http://198.74.50.217:8011/api/0/proyectos/?page='+id+'&format=json&fields=sumario,comisiones.nombre,publicacion_fecha';
 };
 
 var projectSearchKeyword = function(keyword){ 
@@ -24,11 +24,13 @@ var projectUniqueId = function(uuid){
 
 var legislatorsList = 'http://198.74.50.217:8011/api/0/legisladores/?format=json&fields=persona.nombre,persona.apellido';
 
-var comissionsList = 'http://198.74.50.217:8011/api/0/comisiones/?format=json';
+var comissionsList = 'http://198.74.50.217:8011/api/0/comisiones/?format=json&fields=nombre';
 
 
 /*
-* GET home page.
+
+ GET Home page.
+
 */
 
 exports.index = function(req, res){
@@ -48,6 +50,7 @@ exports.acerca = function(req, res){
 
 exports.proyectos = function(req, res){
   request(projectList, function(resp){
+    console.dir(resp.body.payload.proyectos),
   	res.render('proyectos', { title: 'Media Sanción | Proyectos', proyectos: resp.body , qs_parse: qs.parse });
   });
 };
@@ -67,7 +70,7 @@ exports.proyecto = function(req, res){
 exports.legisladores = function(req, res){
   request(legislatorsList, function(resp){
     res.locals.legisladores = resp.body,
-    console.log('FFFFUUUU'),
+    //console.log('FFFFUUUU'),
     //console.dir(resp.body.payload.legisladores),
     res.render('legisladores', {title: 'Media Sanción | Legisladores'});
   });
@@ -84,6 +87,6 @@ exports.legisladores = function(req, res){
 
 exports.comisiones = function(req, res){
   request(comissionsList, function(resp){
-    res.render('comsiones', { title: 'Media Sanción | Comisiones', comsiones: resp.body });
+    res.render('comisiones', { title: 'Media Sanción | Comisiones', comisiones: resp.body });
   });
 };

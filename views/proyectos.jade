@@ -10,7 +10,6 @@ block content
             th Fecha
             th Ver proyecto
             th Sumario
-            th Comisión
         tbody
           each proyecto in proyectos.payload.proyectos
             tr
@@ -18,9 +17,6 @@ block content
               td 
                 a(href="/proyecto/"+proyecto.proyecto.uuid) Link
               td #{ proyecto.proyecto.sumario}
-              td 
-               each comision in proyecto.proyecto.comisiones
-                p #{ comision.nombre }
   
 
       .pagination

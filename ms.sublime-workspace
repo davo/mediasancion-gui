@@ -4,12 +4,24 @@
 		"selected_items":
 		[
 			[
-				"cor",
-				"color"
+				"ba",
+				"background-color"
+			],
+			[
+				"pad",
+				"padding-left"
 			],
 			[
 				"mar",
-				"margin-top"
+				"margin-bottom"
+			],
+			[
+				"co",
+				"container"
+			],
+			[
+				"cor",
+				"color"
 			],
 			[
 				"in",
@@ -28,20 +40,12 @@
 				"font-weight"
 			],
 			[
-				"pad",
-				"padding"
-			],
-			[
 				"di",
 				"display"
 			],
 			[
 				"p",
 				"png"
-			],
-			[
-				"ba",
-				"background"
 			],
 			[
 				"backgr",
@@ -51,6 +55,46 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "routes/index.js",
+			"settings":
+			{
+				"buffer_size": 2929,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "http://anonymouse.org/cgi-bin/anon-www.cgi/",
+			"settings":
+			{
+				"buffer_size": 43,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "views/comisiones.jade",
+			"settings":
+			{
+				"buffer_size": 444,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "views/layout.jade",
+			"settings":
+			{
+				"buffer_size": 1919,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "views/proyectos.jade",
+			"settings":
+			{
+				"buffer_size": 709,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -76,6 +120,36 @@
 	},
 	"file_history":
 	[
+		"/WRKK/G/garagelab/mediasancion/mediasancion-gui/data/nueva-data/comisiones/b8bedc3a-e2b1-4359-bf8e-35c5865cf6a2.json",
+		"/WRKK/G/garagelab/mediasancion/mediasancion-gui/data/nueva-data/comisiones.json",
+		"/WRKK/G/garagelab/mediasancion/mediasancion-gui/views/legisladores.jade",
+		"/WRKK/G/garagelab/mediasancion/mediasancion-gui/views/proyectos.jade",
+		"/WRKK/G/garagelab/mediasancion/mediasancion-gui/views/index.jade",
+		"/WRKK/G/garagelab/mediasancion/mediasancion-gui/data/nueva-data/bloques.json",
+		"/WRKK/G/garagelab/mediasancion/mediasancion-gui/data/nueva-data/partidos",
+		"/WRKK/G/garagelab/mediasancion/mediasancion-gui/data/legislador-detail.json",
+		"/WRKK/G/garagelab/mediasancion/mediasancion-gui/data/persona-detail.json",
+		"/WRKK/G/garagelab/mediasancion/mediasancion-gui/data/nueva-data/personas.json",
+		"/WRKK/G/garagelab/mediasancion/mediasancion-gui/data/nueva-data/legisladores.json",
+		"/WRKK/G/garagelab/mediasancion/mediasancion-gui/views/proyecto.jade",
+		"/WRKK/G/garagelab/mediasancion/mediasancion-gui/routes/index.js",
+		"/WRKK/G/garagelab/mediasancion/mediasancion-gui/views/layout.jade",
+		"/WRKK/G/garagelab/mediasancion/mediasancion-gui/public/stylesheets/base.css",
+		"/WRKK/G/garagelab/mediasancion/mediasancion-gui/public/stylesheets/custom-flat-ui.css",
+		"/WRKK/G/garagelab/mediasancion/mediasancion-gui/render/proyectos.html",
+		"/WRKK/G/garagelab/mediasancion/mediasancion-gui/data/nueva-data/partidos.json",
+		"/WRKK/G/garagelab/mediasancion/mediasancion-stack/assets/js/stack.v0.js",
+		"/WRKK/G/garagelab/mediasancion/mediasancion-stack/assets/css/stack.css",
+		"/WRKK/G/garagelab/mediasancion/mediasancion-stack/index.html",
+		"/WRKK/G/garagelab/mediasancion/ms-presentacion/index.html",
+		"/WRKK/G/garagelab/mediasancion/ms-presentacion/assets/css/stack.css",
+		"/WRKK/G/garagelab/mediasancion/mediasancion-gui/public/images/logo.png",
+		"/WRKK/G/garagelab/mediasancion/mediasancion-gui/.gitignore",
+		"/WRKK/G/garagelab/mediasancion/mediasancion-gui/views/comisiones.jade",
+		"/WRKK/G/garagelab/mediasancion/mediasancion-gui/app.js",
+		"/WRKK/G/garagelab/mediasancion/mediasancion-gui/views/acerca.jade",
+		"/WRKK/G/garagelab/mediasancion/npm-debug.log",
+		"/WRKK/G/garagelab/mediasancion/mediasancion-gui/ms.sublime-project",
 		"/WRKK/G/garagelab/mediasancion/views/layout.jade",
 		"/WRKK/G/garagelab/mediasancion/views/acerca.jade",
 		"/WRKK/G/garagelab/mediasancion/app.js",
@@ -120,6 +194,23 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"http://anonymouse.org/cgi-bin/anon-www.cgi/",
+			"comisiones",
+			"Comisiones",
+			"comisiones",
+			"com",
+			"anonymouse.org",
+			"http://198.",
+			"los",
+			"h4",
+			"4",
+			"2",
+			"p",
+			"jumbotron",
+			"<p>",
+			"src=\"",
+			"comissionsList",
+			"comision",
 			"index",
 			".reveal ",
 			"c1c1c1",
@@ -141,8 +232,146 @@
 	"groups":
 	[
 		{
+			"selected": 4,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "routes/index.js",
+					"settings":
+					{
+						"buffer_size": 2929,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2280,
+								2280
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 360.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"settings":
+					{
+						"buffer_size": 43,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								43,
+								43
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "views/comisiones.jade",
+					"settings":
+					{
+						"buffer_size": 444,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								174,
+								174
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "views/layout.jade",
+					"settings":
+					{
+						"buffer_size": 1919,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1206,
+								1206
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "views/proyectos.jade",
+					"settings":
+					{
+						"buffer_size": 709,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								161,
+								166
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -177,6 +406,10 @@
 		]
 	},
 	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
 	"replace":
 	{
 		"height": 0.0
@@ -197,7 +430,7 @@
 		[
 			[
 				"",
-				"/WRKK/G/garagelab/mediasancion/ms.sublime-project"
+				"/WRKK/H/hackdash/hackdash.sublime-project"
 			]
 		],
 		"width": 380.0
