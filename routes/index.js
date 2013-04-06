@@ -22,8 +22,8 @@ var projectUniqueId = function(uuid){
   return 'http://198.74.50.217:8011/api/0/proyectos/'+uuid+'/?format=json';
 };
 
-var searchProjects = function(keys) {
-	return 'http://198.74.50.217:8011/api/0/proyectos/?format=json&sumario='+keys+'&fields=sumario,comisiones.nombre,publicacion_fecha';
+var searchProjects = function(field,keys) {
+	return 'http://198.74.50.217:8011/api/0/proyectos/?format=json&'+field+'='+keys+'&fields=sumario,comisiones.nombre,publicacion_fecha';
 };
 
 var legislatorsList = 'http://198.74.50.217:8011/api/0/legisladores/?format=json&fields=persona.nombre,persona.apellido';
@@ -74,20 +74,9 @@ exports.proyecto = function(req, res){
 exports.legisladores = function(req, res){
   request(legislatorsList, function(resp){
     res.locals.legisladores = resp.body,
-    //console.log('FFFFUUUU'),
-    //console.dir(resp.body.payload.legisladores),
     res.render('legisladores', {title: 'Media Sanción | Legisladores'});
   });
 };
-
-// exports.legisladores = function(req, res){
-// request.get(legislatorsList, function(resp){
-//   res.locals.legisladores = resp.body,
-//   console.log('FFFFUUUU'),
-//   console.dir(resp.body.payload.legisladores),
-//   res.render('legisladores', {title: 'Media Sanción | Legisladores'});
-// });
-// };
 
 exports.comisiones = function(req, res){
   request(comissionsList, function(resp){

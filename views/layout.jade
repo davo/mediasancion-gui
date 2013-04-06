@@ -29,7 +29,20 @@ html
                 a(href='/legisladores') Listar Legisladores
               li.arrow-box.arrow-comisiones
                 a(href='/comisiones') Listar Comisiones
-          
+          .span3
+           form(action='/search',method='get').form-search
+            .row
+                .span4
+                   .input-append
+                     input.span2(type='text', name='q')
+                     button.btn(type='submit') Buscar
+                     input#searchCategory(type='hidden', value='sumario', name='cat')
+            .row
+               .span2
+                   .btn-group.pull-right(data-toggle='buttons-radio')
+                     button.btn.active#search-sumarios Proyectos
+                     button.btn#search-nombre Legisladores
+                     button.btn#search-comision Comisiones
 
          .row
           h1
@@ -51,4 +64,6 @@ html
 
     script(src='/javascripts/jquery-1.8.0.min.js')
     script(src='/javascripts/bootstrap.min.js')
+    script(src='/javascripts/tools.js')
+
 
