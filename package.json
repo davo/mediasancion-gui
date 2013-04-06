@@ -8,5 +8,9 @@
     "less-middleware": "*",
     "nib": "*",
     "superagent": "~0.10.0"
-  }
+  },
+	"engines": {
+    "node": "0.8.x",
+    "npm": "1.1.x"
+	}
 }
