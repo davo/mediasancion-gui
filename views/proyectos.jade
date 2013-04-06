@@ -17,7 +17,9 @@ block content
               td 
                 a(href="/proyecto/"+proyecto.proyecto.uuid) Link
               td #{ proyecto.proyecto.sumario}
-  
+              td 
+               each comision in proyecto.proyecto.comisiones
+                p #{ comision.comision.nombre }  
 
       .pagination
        ul
