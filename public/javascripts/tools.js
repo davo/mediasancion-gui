@@ -1,4 +1,3 @@
-
 $(function(){
 
 	var $searchCategory = $('#searchCategory');
@@ -10,7 +9,5 @@ $(function(){
 		$searchCategory.val(cat);
 		e.preventDefault();
 	});
-
-
 
 });

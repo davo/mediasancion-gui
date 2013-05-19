@@ -11,25 +11,35 @@ html
     link(rel='shortcut icon', href='/images/favicon.ico')
     link(rel='stylesheet', href='/stylesheets/bootstrap.css')
     link(rel='stylesheet', href='/stylesheets/bootstrap-responsive.css')
-    link(rel='stylesheet', href='/stylesheets/docs.css')
-    link(rel='stylesheet', href='/stylesheets/base.css')
+    //link(rel='stylesheet', href='/stylesheets/docs.css')
+    //link(rel='stylesheet', href='/stylesheets/base.css')
+    link(rel='stylesheet/less', type='text/css', href='/stylesheets/base.less')
+    script(src='/javascripts/less.js', type='text/javascript')
+
   body
     header#overview.jumbotron.subhead
       .container
+        .row
+          h1
+           a.brand(href='/') Media Sanción
+          p.lead Un proyecto de sobre transparencia legislativa en el Congreso Nacional. 
          .row
+          .span5
+
+        .row
           .span9
             ul.nav.nav-pills
-              li.arrow-box.arrow-inicio
+              li.inicio
                 a(href='/') Inicio
-              li.arrow-box.arrow-acerca
+              li.acerca
                 a(href='/acerca') Acerca de
-              li.arrow-box.arrow-proyectos
+              li.proyectos
                 a(href='/proyectos') Listar Proyectos
-              li.arrow-box.arrow-legisladores
+              li.legisladores
                 a(href='/legisladores') Listar Legisladores
-              li.arrow-box.arrow-comisiones
+              li.comisiones
                 a(href='/comisiones') Listar Comisiones
-          .span3
+          .span3.search-bar
            form(action='/search',method='get').form-search
             .row
                 .span4
@@ -43,15 +53,6 @@ html
                      button.btn.active#search-sumarios Proyectos
                      button.btn#search-nombre Legisladores
                      button.btn#search-comision Comisiones
-
-         .row
-          h1
-           a.brand(href='/') Media Sanción
-            p.lead Acceso público a la información de la actividad legislativa en Argentina.
-         .row
-          .span5
-           small
-            | Fusce nec lectus mi. Proin et nisl turpis, ac mollis nisl. Donec non diam ac mi semper blandit eu ac odio. Praesent pharetra, urna quis consectetur dapibus, est nulla tincidunt erat, ut sceleris$
     section#inicio
     block content
       .container

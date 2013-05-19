@@ -2,27 +2,20 @@ extends layout
 
 block content
   .container
-      h1 Proyectos
-      .bs-docs-example
-       table.table.table-bordered
-        thead
-          tr
-            th Fecha
-            th Ver proyecto
-            th Sumario
-        tbody
-          each proyecto in proyectos.payload.proyectos
-            tr
-              td #{ proyecto.proyecto.publicacion_fecha}
-              td 
+    h1 Proyectos
+    .proyectos
+        each proyecto in proyectos.payload.proyectos
+          .project.span4
+            .well          
+              span.date #{ proyecto.proyecto.publicacion_fecha}
+              span.link
                 a(href="/proyecto/"+proyecto.proyecto.uuid) Link
-              td #{ proyecto.proyecto.sumario}
-              td 
-               each comision in proyecto.proyecto.comisiones
+              p #{ proyecto.proyecto.sumario} 
+              each comision in proyecto.proyecto.comisiones
                 p #{ comision.comision.nombre }  
 
-      .pagination
-       ul
-        each link in proyectos.links
-          li
-            a(href='/proyectos/' + (qs_parse(link.link.href).page ||qs_parse(link.link.href)['/api/0/proyectos/?page'])) #{link.link.rel}
+    .pagination
+     ul
+      each link in proyectos.links
+        li
+          a(href='/proyectos/' + (qs_parse(link.link.href).page ||qs_parse(link.link.href)['/api/0/proyectos/?page'])) #{link.link.rel}
