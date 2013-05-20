@@ -127,19 +127,19 @@ header {
 
 .projects {
 
-
-
   .project.span4 {
   
     width: 352px;
   
   }
   .project {
+
       .well {
-      
+        position: relative;
         min-height: 20px;
         margin-bottom: 30px;
-        background-color: #ffffff !important;
+        padding-top: 25px;
+        background-color: @white !important;
         border: 1px solid #e4e4e4;
         .box-shadow(~"0 .05em .25em #EAEAEA");
         overflow: hidden;
@@ -153,16 +153,27 @@ header {
         }
 
         .comission {
+          display: inline-block;
           font-size: .65em;
           font-weight: 700;
           text-transform: uppercase;
-          padding: 5px;
+          padding: 0px 5px;
           color: @white;
           background-color: @proyectos;
           margin-right: 4px;
           margin-bottom: 4px;
           .border-radius(3px);
-          white-space:nowrap;
+          white-space: nowrap;
+        }
+        .link {
+          position: absolute;
+          right: 0;
+          top: 0;
+          .border-radius(3px);
+          font-size: .8em;
+          font-weight: 800;
+          padding: 4px;
+
         }
     }
   }

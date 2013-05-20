@@ -11,12 +11,12 @@ block content
           each proyecto in proyectos.payload.proyectos
             .project.span4
               .well          
-                span.date #{ proyecto.proyecto.publicacion_fecha}
                 span.link
-                  a(href="/proyecto/"+proyecto.proyecto.uuid) Link
+                  a(href="/proyecto/"+proyecto.proyecto.uuid) Ver proyecto
                 p.summary #{ proyecto.proyecto.sumario} 
                 each comision in proyecto.proyecto.comisiones
-                 span.comission #{ comision.comision.nombre }  
+                 span.comission #{ comision.comision.nombre }
+                span.date #{proyecto.proyecto.publicacion_fecha}
 
     .pagination
      ul
