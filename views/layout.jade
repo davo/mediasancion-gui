@@ -8,12 +8,9 @@ html
     meta(name='author', content='')
     //if lt IE 9
       script(src='http://html5shim.googlecode.com/svn/trunk/html5.js')
-    link(rel='shortcut icon', href='/images/favicon.ico')
-    link(rel='stylesheet', href='/stylesheets/bootstrap.css')
-    link(rel='stylesheet', href='/stylesheets/bootstrap-responsive.css')
-    //link(rel='stylesheet', href='/stylesheets/docs.css')
-    //link(rel='stylesheet', href='/stylesheets/base.css')
-    link(rel='stylesheet/less', type='text/css', href='/stylesheets/base.less')
+    link(rel='stylesheet/less', type='text/css', href='/stylesheets/less/bootstrap/bootstrap.less')
+    link(rel='stylesheet/less', type='text/css', href='/stylesheets/less/bootstrap/responsive.less')
+    link(rel='stylesheet/less', type='text/css', href='/stylesheets/less/base.less')
     script(src='/javascripts/less.js', type='text/javascript')
 
   body
@@ -34,11 +31,11 @@ html
               li.acerca
                 a(href='/acerca') Acerca de
               li.proyectos
-                a(href='/proyectos') Listar Proyectos
+                a(href='/proyectos') Proyectos
               li.legisladores
-                a(href='/legisladores') Listar Legisladores
+                a(href='/legisladores') Legisladores
               li.comisiones
-                a(href='/comisiones') Listar Comisiones
+                a(href='/comisiones') Comisiones
           .span3.search-bar
            form(action='/search',method='get').form-search
             .row

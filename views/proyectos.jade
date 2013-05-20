@@ -2,17 +2,21 @@ extends layout
 
 block content
   .container
-    h1 Proyectos
-    .proyectos
-        each proyecto in proyectos.payload.proyectos
-          .project.span4
-            .well          
-              span.date #{ proyecto.proyecto.publicacion_fecha}
-              span.link
-                a(href="/proyecto/"+proyecto.proyecto.uuid) Link
-              p #{ proyecto.proyecto.sumario} 
-              each comision in proyecto.proyecto.comisiones
-                p #{ comision.comision.nombre }  
+    .row
+      .span12
+        h1 Proyectos
+    .row
+      .span12
+        .projects
+          each proyecto in proyectos.payload.proyectos
+            .project.span4
+              .well          
+                span.date #{ proyecto.proyecto.publicacion_fecha}
+                span.link
+                  a(href="/proyecto/"+proyecto.proyecto.uuid) Link
+                p.summary #{ proyecto.proyecto.sumario} 
+                each comision in proyecto.proyecto.comisiones
+                 span.comission #{ comision.comision.nombre }  
 
     .pagination
      ul
