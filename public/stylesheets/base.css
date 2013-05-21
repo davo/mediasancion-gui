@@ -1,8 +1,7 @@
-@import url(http://fonts.googleapis.com/css?family=Arvo:400,700);
 
 
-/*font-family: 'Arvo', serif;
-font-family: 'Rokkitt', serif;*/
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+
 
 body {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -11,8 +10,12 @@ body {
 }
 
 header .container, footer .container {
-  font-family: 'Arvo', serif;
+  font-family: 'Open Sans', serif;
 	display: block;
+}
+
+.search-bar {
+  display: none;
 }
 
 .search-bar h1 {
@@ -59,7 +62,6 @@ header .lead {
   font-size: 12px;
   font-weight: normal;
   letter-spacing: -.05em;
-  color: ;
 }
 
 header small {
@@ -153,7 +155,7 @@ footer .container {
   background-color: #AEB2B4;
 }
 
-.arrow-acerca:after {
+/*.arrow-acerca:after {
     border-top-color: #AEB2B4;
 }
 
@@ -179,7 +181,40 @@ footer .container {
 
 .arrow-comisiones:after {
   border-top-color: #6CC9F6;
+}*/
+
+.proyectos {
 }
+
+.project.span4 {
+    width: 352px;
+  }
+
+.well {
+  min-height:                                           20px;
+  margin-bottom:                                        30px;
+  background-color:                       #ffffff !important;
+  border:                                  1px solid #e4e4e4;
+  border:                                                  0;
+  border-radius:                                  4px;
+  -webkit-box-shadow:    inset 0 0px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow:       inset 0 0px 0px rgba(0, 0, 0, 0.2);
+  box-shadow:            inset 0 0px 0px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow:          0 1px 2px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow:             0 1px 2px rgba(0, 0, 0, 0.2);
+  box-shadow:                  0 1px 2px rgba(0, 0, 0, 0.2);
+  padding:                                                 10px;
+  position: relative;
+    /* Firefox */
+  -moz-transition: all 0.1s ease-in-out;
+  /* WebKit */
+  -webkit-transition: all 0.1s ease-in-out;
+  /* Opera */
+  -o-transition: all 0.1s ease-in-out;
+  /* Standard */
+  transition: all 0.1s ease-in-out;
+}
+
 
 .nav {
   margin-left: 20px;
@@ -189,3 +224,4 @@ footer .container {
   text-decoration: none;
   background-color: transparent;
 }
+

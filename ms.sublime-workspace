@@ -56,42 +56,18 @@
 	"buffers":
 	[
 		{
-			"file": "routes/index.js",
-			"settings":
-			{
-				"buffer_size": 2929,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "http://anonymouse.org/cgi-bin/anon-www.cgi/",
-			"settings":
-			{
-				"buffer_size": 43,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "views/comisiones.jade",
-			"settings":
-			{
-				"buffer_size": 444,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "views/layout.jade",
-			"settings":
-			{
-				"buffer_size": 1919,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "views/proyectos.jade",
 			"settings":
 			{
-				"buffer_size": 709,
+				"buffer_size": 695,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/stylesheets/base.css",
+			"settings":
+			{
+				"buffer_size": 4218,
 				"line_ending": "Unix"
 			}
 		}
@@ -99,11 +75,11 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 0.0,
+		"height": 392.0,
 		"selected_items":
 		[
 		],
-		"width": 0.0
+		"width": 392.0
 	},
 	"console":
 	{
@@ -120,21 +96,25 @@
 	},
 	"file_history":
 	[
+		"/WRKK/G/garagelab/mediasancion/mediasancion-gui/public/javascripts/tools.js",
+		"/WRKK/G/garagelab/mediasancion/mediasancion-gui/public/stylesheets/base.css",
+		"/WRKK/G/garagelab/mediasancion/mediasancion-gui/views/layout.jade",
+		"/WRKK/G/garagelab/mediasancion/mediasancion-gui/routes/index.js",
+		"/WRKK/G/garagelab/mediasancion/mediasancion-gui/views/proyectos.jade",
+		"/WRKK/G/garagelab/mediasancion/mediasancion-gui/views/index.jade",
+		"/WRKK/G/garagelab/mediasancion/mediasancion-gui/views/acerca.jade",
+		"/WRKK/G/garagelab/mediasancion/mediasancion-gui/views/proyecto.jade",
+		"/WRKK/G/garagelab/mediasancion/mediasancion-gui/views/comisiones.jade",
+		"/WRKK/G/garagelab/mediasancion/mediasancion-gui/views/nuevo-proyectos.jade",
 		"/WRKK/G/garagelab/mediasancion/mediasancion-gui/data/nueva-data/comisiones/b8bedc3a-e2b1-4359-bf8e-35c5865cf6a2.json",
 		"/WRKK/G/garagelab/mediasancion/mediasancion-gui/data/nueva-data/comisiones.json",
 		"/WRKK/G/garagelab/mediasancion/mediasancion-gui/views/legisladores.jade",
-		"/WRKK/G/garagelab/mediasancion/mediasancion-gui/views/proyectos.jade",
-		"/WRKK/G/garagelab/mediasancion/mediasancion-gui/views/index.jade",
 		"/WRKK/G/garagelab/mediasancion/mediasancion-gui/data/nueva-data/bloques.json",
 		"/WRKK/G/garagelab/mediasancion/mediasancion-gui/data/nueva-data/partidos",
 		"/WRKK/G/garagelab/mediasancion/mediasancion-gui/data/legislador-detail.json",
 		"/WRKK/G/garagelab/mediasancion/mediasancion-gui/data/persona-detail.json",
 		"/WRKK/G/garagelab/mediasancion/mediasancion-gui/data/nueva-data/personas.json",
 		"/WRKK/G/garagelab/mediasancion/mediasancion-gui/data/nueva-data/legisladores.json",
-		"/WRKK/G/garagelab/mediasancion/mediasancion-gui/views/proyecto.jade",
-		"/WRKK/G/garagelab/mediasancion/mediasancion-gui/routes/index.js",
-		"/WRKK/G/garagelab/mediasancion/mediasancion-gui/views/layout.jade",
-		"/WRKK/G/garagelab/mediasancion/mediasancion-gui/public/stylesheets/base.css",
 		"/WRKK/G/garagelab/mediasancion/mediasancion-gui/public/stylesheets/custom-flat-ui.css",
 		"/WRKK/G/garagelab/mediasancion/mediasancion-gui/render/proyectos.html",
 		"/WRKK/G/garagelab/mediasancion/mediasancion-gui/data/nueva-data/partidos.json",
@@ -145,9 +125,7 @@
 		"/WRKK/G/garagelab/mediasancion/ms-presentacion/assets/css/stack.css",
 		"/WRKK/G/garagelab/mediasancion/mediasancion-gui/public/images/logo.png",
 		"/WRKK/G/garagelab/mediasancion/mediasancion-gui/.gitignore",
-		"/WRKK/G/garagelab/mediasancion/mediasancion-gui/views/comisiones.jade",
 		"/WRKK/G/garagelab/mediasancion/mediasancion-gui/app.js",
-		"/WRKK/G/garagelab/mediasancion/mediasancion-gui/views/acerca.jade",
 		"/WRKK/G/garagelab/mediasancion/npm-debug.log",
 		"/WRKK/G/garagelab/mediasancion/mediasancion-gui/ms.sublime-project",
 		"/WRKK/G/garagelab/mediasancion/views/layout.jade",
@@ -180,7 +158,7 @@
 	],
 	"find":
 	{
-		"height": 35.0
+		"height": 52.0
 	},
 	"find_in_files":
 	{
@@ -232,142 +210,61 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "routes/index.js",
+					"file": "views/proyectos.jade",
 					"settings":
 					{
-						"buffer_size": 2929,
+						"buffer_size": 695,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2280,
-								2280
+								167,
+								167
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 360.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
+					"file": "public/stylesheets/base.css",
 					"settings":
 					{
-						"buffer_size": 43,
+						"buffer_size": 4218,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								43,
-								43
+								2653,
+								2606
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "views/comisiones.jade",
-					"settings":
-					{
-						"buffer_size": 444,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								174,
-								174
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"syntax": "Packages/CSS/CSS.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "views/layout.jade",
-					"settings":
-					{
-						"buffer_size": 1919,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1206,
-								1206
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "views/proyectos.jade",
-					"settings":
-					{
-						"buffer_size": 709,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								161,
-								166
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2114.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -420,6 +317,38 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"base",
+				"mediasancion-gui/public/stylesheets/base.css"
+			],
+			[
+				"pro",
+				"mediasancion-gui/views/proyectos.jade"
+			],
+			[
+				"inde",
+				"mediasancion-gui/views/index.jade"
+			],
+			[
+				"tool",
+				"mediasancion-gui/public/javascripts/tools.js"
+			],
+			[
+				"rout",
+				"mediasancion-gui/routes/index.js"
+			],
+			[
+				"pr",
+				"mediasancion-gui/views/proyecto.jade"
+			],
+			[
+				"acer",
+				"mediasancion-gui/views/acerca.jade"
+			],
+			[
+				"css",
+				"mediasancion-gui/public/stylesheets/base.css"
+			]
 		],
 		"width": 0.0
 	},

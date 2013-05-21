@@ -1,0 +1,201 @@
+@import "lesshat";
+
+@import url('bootstrap/variables.less');
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+
+@inicio: darken(#EAEAEA, 20%);
+@acerca: darken(#AEB2B4, 20%);
+@proyectos: darken(#BDE5F9, 20%);
+@legisladores: darken(#97E8E4, 20%);
+@comisiones: darken(#6CC9F6, 20%);
+
+
+html {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+
+}
+
+body {
+
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  padding-top: 100px;
+  background: url('/images/ms-bkg.png');
+}
+
+header {
+  
+  .search-bar {
+    display: none;
+  }
+  
+  .brand {
+    display: block;
+    width: 248px;
+    height: 88px;
+    background-image: url('/images/logo.svg');
+    background-repeat: no-repeat;
+    background-position:50% 50%; 
+    text-indent: -5000px;
+    padding: 0px;
+    margin-left: 15px;
+    margin-top: 0px;
+  }
+  .lead {
+    margin-top: -45px;
+    margin-left: 112px;
+    color: #969696;
+    font-size: .9em;
+    font-weight: bold;
+    font-weight: normal;
+    letter-spacing: -.05em;
+  }
+
+  small {
+    display: block;
+    margin-top: 20px;
+    margin-left: 60px;
+    font-size: 13px;
+  }
+
+
+  .nav > li {
+    margin: 5px;
+
+      &:first-child {
+        margin-left: 0px;
+      }
+
+  }
+
+  .nav > li > a {
+    font-size: .8em;
+    display: block;
+    padding: 16px 19px;
+    color: @white;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: -0.07em;
+
+      &:hover, &:focus {
+        text-decoration: none;
+        background-color: inherit;
+    }
+
+  }
+
+  .inicio, .acerca, .proyectos, .legisladores, .comisiones {
+    .border-radius(3px);
+  }
+
+  .inicio {
+    background-color: @inicio;
+    &:hover {
+      background-color: darken(@inicio, 10%)
+    }
+  }
+  .acerca {
+    background-color: @acerca;
+    &:hover {
+      background-color: darken(@acerca, 10%)
+    }
+  }
+
+  .proyectos {
+    background-color: @proyectos;
+    &:hover {
+      background-color: darken(@proyectos, 10%)
+    }
+  }
+
+  .legisladores {
+    background-color: @legisladores;
+    &:hover {
+      background-color: darken(@legisladores, 10%)
+    }
+  }
+
+  .comisiones {
+    background-color: @comisiones;
+    &:hover {
+      background-color: darken(@comisiones, 10%)
+    }
+  }
+
+}
+
+.projects {
+
+  .project.span4 {
+  
+    width: 360px;
+  
+  }
+  .project {
+
+      .well {
+        position: relative;
+        min-height: 20px;
+        padding: 15px;
+        padding-top: 25px;
+        background-color: @white !important;
+        border: 1px solid #e4e4e4;
+        .box-shadow(~"0 .05em .25em #EAEAEA");
+        overflow: hidden;
+
+        .summary {
+          color: darken(#AEB2B4, 20%);
+          font-size: .76em;
+          line-height: 1.4em;
+          font-weight: 600;
+          text-transform: uppercase;
+          padding-top: 10px;
+        }
+
+        .comission {
+          display: inline-block;
+          font-size: .68em;
+          font-weight: 700;
+          text-transform: uppercase;
+          padding: 0px 5px;
+          color: @white;
+          background-color: @proyectos;
+          margin-right: 4px;
+          margin-bottom: 4px;
+          .border-radius(3px);
+          white-space: nowrap;
+        }
+        .link a {
+          position: absolute;
+          right: 0;
+          top: 0;
+          background-color: #AEB2B4;
+          .border-radius(0px 3px 0px 0px);
+          font-size: .75em;
+          font-weight: 800;
+          padding: 3px 6px;
+          color: @white;
+          &:hover{
+            text-decoration: none;
+            background-color: darken(#AEB2B4, 20%);
+          }
+        }
+        .date {
+          position: absolute;
+          left: 0;
+          top: 0;
+          top: 0;
+          background-color: lighten(#AEB2B4, 15%);
+          .border-radius(0px 0px 0px 0px);
+          font-size: .75em;
+          font-weight: 600;
+          padding: 3px 6px;
+          color: @white;
+        }
+    }
+  }
+
+}
+
+

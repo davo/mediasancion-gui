@@ -1,4 +1,3 @@
-
 $(function(){
 
 	var $searchCategory = $('#searchCategory');
@@ -11,6 +10,23 @@ $(function(){
 		e.preventDefault();
 	});
 
+  var $projects = $('#projects');
 
+  $projects.isotope({
+    itemSelector: '.project'
+    , animationEngine: 'jquery'
+    , resizable: false
+    , masonry: {
+      columnWidth: $projects.width() / 6
+    },  getSortData : {
+      date : function ( $elem ) {
+        return $elem.attr('data-date');
+    }, name : function ( $elem ) {
+        return $elem.attr('data-name');
+    }
+
+  }});
+
+  var moment = require('moment');
 
 });

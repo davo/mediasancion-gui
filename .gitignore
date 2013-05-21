@@ -7,6 +7,9 @@ node_modules
 .sublime-project
 .sublime-workspace
 src/
+demo/
+data/
+libs/
 
 
 # Project property files
