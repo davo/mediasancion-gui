@@ -7,7 +7,7 @@ block content
         h1 Proyectos
     .row
       .span12
-        .projects
+        #projects.projects
           each proyecto in proyectos.payload.proyectos
             .project.span4
               .well          
@@ -16,7 +16,7 @@ block content
                 p.summary #{ proyecto.proyecto.sumario} 
                 each comision in proyecto.proyecto.comisiones
                  span.comission #{ comision.comision.nombre }
-                span.date #{proyecto.proyecto.publicacion_fecha}
+                span.date #{ proyecto.proyecto.publicacion_fecha }
 
     .pagination
      ul

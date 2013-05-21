@@ -37,8 +37,6 @@ var comissionsList = 'http://198.74.50.217:8011/api/0/comisiones/?format=json&fi
 
 */
 
-var moment = require('moment');
-
 exports.index = function(req, res){
   res.render('index', { title: 'Media Sanción | Inicio' });
 };
@@ -56,7 +54,7 @@ exports.acerca = function(req, res){
 
 exports.proyectos = function(req, res){
   request(projectList, function(resp){
-    console.dir(resp.body.payload.proyectos),
+    //console.dir(resp.body.payload.proyectos),
   	res.render('proyectos', { title: 'Media Sanción | Proyectos', proyectos: resp.body , qs_parse: qs.parse });
   });
 };
