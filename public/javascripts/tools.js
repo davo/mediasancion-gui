@@ -27,6 +27,4 @@ $(function(){
 
   }});
 
-  var moment = require('moment');
-
 });

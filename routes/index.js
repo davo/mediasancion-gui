@@ -3,19 +3,19 @@
  * Module dependencies
  */
 
-//var fs = require('fs');
-var request = require('superagent')
-  , qs = require('querystring');
+var request = require('superagent'),
+    qs = require('querystring'),
+    fs = require('fs');
 var projectList, projectUniqueId;
 
-var projectList = 'http://198.74.50.217:8011/api/0/proyectos/?format=json&fields=sumario,comisiones.nombre,publicacion_fecha';
+var projectList = 'http://198.74.50.217:8011/api/0/proyectos/?format=json&fields=sumario,comisiones.nombre,publicacion_fecha&paginate_by=99';
 
 var projectListPage = function(id){ 
-  return 'http://198.74.50.217:8011/api/0/proyectos/?page='+id+'&format=json&fields=sumario,comisiones.nombre,publicacion_fecha';
+  return 'http://198.74.50.217:8011/api/0/proyectos/?page='+id+'&format=json&fields=sumario,comisiones.nombre,publicacion_fecha&paginate_by=99';
 };
 
 var projectSearchKeyword = function(keyword){ 
-  return 'http://198.74.50.217:8011/api/0/proyectos/?fields=publicacion_fecha,sumario&name='+keyword+'&format=json';
+  return 'http://198.74.50.217:8011/api/0/proyectos/?fields=publicacion_fecha,sumario&name='+keyword+'&format=json&paginate_by=99';
 };
 
 var projectUniqueId = function(uuid){ 
@@ -23,12 +23,12 @@ var projectUniqueId = function(uuid){
 };
 
 var searchProjects = function(field,keys) {
-	return 'http://198.74.50.217:8011/api/0/proyectos/?format=json&'+field+'='+keys+'&fields=sumario,comisiones.nombre,publicacion_fecha';
+	return 'http://198.74.50.217:8011/api/0/proyectos/?format=json&'+field+'='+keys+'&fields=sumario,comisiones.nombre,publicacion_fecha&paginate_by=99';
 };
 
-var legislatorsList = 'http://198.74.50.217:8011/api/0/legisladores/?format=json&fields=persona.nombre,persona.apellido';
+var legislatorsList = 'http://198.74.50.217:8011/api/0/legisladores/?format=json&fields=persona.nombre,persona.apellido&paginate_by=99';
 
-var comissionsList = 'http://198.74.50.217:8011/api/0/comisiones/?format=json&fields=nombre';
+var comissionsList = 'http://198.74.50.217:8011/api/0/comisiones/?format=json&fields=nombre&paginate_by=99';
 
 
 /*
@@ -71,12 +71,21 @@ exports.proyecto = function(req, res){
   });
 };
 
+
 exports.legisladores = function(req, res){
-  request(legislatorsList, function(resp){
-    res.locals.legisladores = resp.body,
-    res.render('legisladores', {title: 'Media Sanción | Legisladores'});
+  fs.readFile(__dirname + '/../data/legislador-complete-list.json', 'utf-8', function(err, data){
+    data = JSON.parse(data);
+    res.render('legisladores', { title: 'Media Sanción | Legisladores', legisladores: data });
   });
 };
+
+
+// exports.legisladores = function(req, res){
+//   request(legislatorsList, function(resp){
+//     res.locals.legisladores = resp.body,
+//     res.render('legisladores', {title: 'Media Sanción | Legisladores'});
+//   });
+// };
 
 exports.comisiones = function(req, res){
   request(comissionsList, function(resp){

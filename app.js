@@ -20,7 +20,7 @@ app.configure(function () {
 	app.use(express.favicon());
 
 	// Configure LESS
-	app.use(require('less-middleware')({ src: __dirname + '/public', compress: true }));
+	app.use(require('less-middleware')({ src: __dirname + '/public', compress: false }));
  	app.use(express.static(__dirname + '/public'));
 
 	// Logger
