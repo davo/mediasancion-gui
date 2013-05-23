@@ -16,9 +16,17 @@ block content
                 span.link
                   a(href="/proyecto/"+proyecto.proyecto.uuid) Ver proyecto
                 p.summary #{ proyecto.proyecto.sumario} 
-                each comision in proyecto.proyecto.comisiones
-                 span.comission #{ comision.comision.nombre }
+
+                span.comisiones
+                  each comision in proyecto.proyecto.comisiones
+                   span.comission #{ comision.comision.nombre }
                 span.date #{ proyecto.proyecto.publicacion_fecha }
+
+                each legislador in proyecto.proyecto.firmantes
+                  .legisladores
+                    span.legislador
+                      small #{ legislador.legislador.uuid }
+                      a(href='#{ legislador.legislador.uuid }') Ver este legislador
 
     .pagination
      ul

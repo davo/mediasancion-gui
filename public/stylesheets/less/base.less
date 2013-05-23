@@ -2,6 +2,8 @@
 
 @import url('bootstrap/variables.less');
 
+.hideText {text-indent:100%; white-space:nowrap; overflow:hidden;}
+
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
 
 @inicio: darken(#EAEAEA, 20%);
@@ -254,6 +256,25 @@ input[type="text"] {
           font-weight: 600;
           padding: 3px 6px;
           color: @white;
+        }
+        .legisladores {
+
+          .legislador {
+            .hideText;
+            float: left;
+            width: 20px; height: 20px;
+            margin-right: 5px;
+            background-color: #AEB2B4;
+            .border-radius(40px);
+            background-image: url('/images/user-icon.svg');
+            background-repeat: no-repeat;
+            background-position:50% 50%; 
+            background-size: 20px;
+            color: white;
+
+
+          }
+
         }
     }
   }

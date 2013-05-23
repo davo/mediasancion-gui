@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  .container
+      h1 Proyecto
+      - var legislador = legislador.payload.legisladores
+      .jumbotron
+       p.lead Fecha: #{legislador.persona.nombre} #{legislador.persona.apellido}
+      .row-fluid
+       .span6
+        //- h4 Sumario
+        //- p #{proyecto.sumario}
+        //- p #{proyecto.texto_completo_url}
+        //- p #{proyecto.publicacion_en}
+        

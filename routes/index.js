@@ -8,7 +8,7 @@ var request = require('superagent'),
     fs = require('fs');
 var projectList, projectUniqueId;
 
-var projectList = 'http://198.74.50.217:8011/api/0/proyectos/?format=json&fields=sumario,comisiones.nombre,publicacion_fecha&paginate_by=10';
+var projectList = 'http://198.74.50.217:8011/api/0/proyectos/?format=json&fields=tipo,sumario,comisiones.nombre,publicacion_fecha,camara_origen,firmantes,texto_mediasancion_senadores_url,texto_mediasancion_diputados_url,publicacion_en&paginate_by=10';
 
 var projectListPage = function(id){ 
   return 'http://198.74.50.217:8011/api/0/proyectos/?page='+id+'&format=json&fields=sumario,comisiones.nombre,publicacion_fecha&paginate_by=99';
@@ -30,6 +30,9 @@ var legislatorsList = 'http://198.74.50.217:8011/api/0/legisladores/?format=json
 
 var comissionsList = 'http://198.74.50.217:8011/api/0/comisiones/?format=json&fields=nombre&paginate_by=99';
 
+var legislatorViewUniqueId = function(uuid){ 
+  return 'http://198.74.50.217:8011/api/0/legisladores/?format=json&persona='+uuid+'&fields=persona.nombre,persona.apellido';
+};
 
 /*
 
@@ -71,6 +74,14 @@ exports.proyecto = function(req, res){
   });
 };
 
+exports.legislador = function(req, res){
+
+  request(legislatorViewUniqueId(req.params.legislador_id), function(resp){ 
+    console.log(resp.body.payload.legislador),
+    res.render('legislador', { title: 'Media Sanción | Legislador', legislador: resp.body });
+  });
+};
+
 
 exports.legisladores = function(req, res){
   fs.readFile(__dirname + '/../data/legislador-complete-list.json', 'utf-8', function(err, data){
@@ -95,7 +106,7 @@ exports.comisiones = function(req, res){
 
 exports.search = function(req, res) {
 	request(searchProjects(req.query.cat,req.query.q), function(resp) {
-    console.log(resp.req.path)
+    //console.log(resp.req.path)
     res.render('proyectos', { title: 'Media Sanción | Proyectos', proyectos: resp.body, qs_parse: qs.parse });
 	});
 };
