@@ -150,6 +150,31 @@ input[type="text"] {
 
 }
 
+.content-acerca {
+  background-color: lighten(@proyectos,30%);
+  padding-bottom: 100px;
+
+  h1 {
+    font-size: 2.5em;
+    line-height: 48px;
+    font-weight: 300;
+    color: darken(@acerca,10%);
+    padding: 120px 0 10px;
+  }
+
+  p,li {
+    font-size: 1.7em;
+    line-height: 1.74em;
+    font-weight: 300;
+    color: darken(@acerca,30%);
+  }
+  li {
+    font-size: 1.6em;
+    margin-left: 15px;
+  }
+
+}
+
 .banner {
   position: relative;
   min-height: 375px; 
@@ -426,14 +451,53 @@ input[type="text"] {
 
   }
 
+  .signature{
+    position: absolute;
+        top: 18px;
+        left: 43px;
+        background-color: darken(red,20%);
+        display: block;
+        width: 30px; height: 30px;
+        text-align: center;
+
+        .border-radius(40px);
+        font-size: .9em;
+        font-weight: 700;
+       .number {
+        display: block;
+        padding: 5px;
+        color: @white;
+        }
+  }
+
 }
 
 .footer {
   background-color: darken(#BDE5F9, 30%);
   min-height: 400px;
 
+
   .credits {
     margin: 40px 0 0 0;
+  }
+
+  h5 {
+    color:  darken(#BDE5F9, 55%);
+    font-size: 1.3em;
+    font-weight: 700;
+    padding-bottom: 15px;
+    border-bottom: 1px solid  darken(#BDE5F9, 40%);
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0; margin: 0;
+  }
+
+  li a {
+    color: @white;
+    font-size: 1.1em;
+    font-weight: 400;
   }
 }
 

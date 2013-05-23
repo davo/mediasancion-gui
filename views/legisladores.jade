@@ -19,5 +19,5 @@ block content
                     span.content
                       p.name #{legislador.legislador.persona.nombre} #{legislador.legislador.persona.apellido}
                       a(href='mailto:#{legislador.legislador.persona.email}', class='mail') Mail
-                    each firma_proyecto in legislador.legislador.firmas_proyectos
-                      span.signature #{firma_proyecto.length}
+                      span.signature
+                        span.number=legislador.legislador.firmas_proyectos.length
