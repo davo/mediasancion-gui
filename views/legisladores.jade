@@ -15,9 +15,9 @@ block content
                 if apellido != null
                 .project.span4
                   .well
-                    .row
-                      .span2
-                       span.image
-                      .span9
-                        p.name #{legislador.legislador.persona.nombre} #{legislador.legislador.persona.apellido}
-                        a(href='mailto:#{legislador.legislador.persona.email}', class='mail') Mail
+                    span.image.pull-left
+                    span.content
+                      p.name #{legislador.legislador.persona.nombre} #{legislador.legislador.persona.apellido}
+                      a(href='mailto:#{legislador.legislador.persona.email}', class='mail') Mail
+                    each firma_proyecto in legislador.legislador.firmas_proyectos
+                      span.signature #{firma_proyecto.length}
