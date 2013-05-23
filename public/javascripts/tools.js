@@ -10,6 +10,12 @@ $(function(){
 		e.preventDefault();
 	});
 
+  $('.searchHook').keydown(function(e) {
+      if (e.keyCode == 13) {
+          $('.form-search').submit();
+      }
+  });
+
   var $projects = $('#projects');
 
   $projects.isotope({

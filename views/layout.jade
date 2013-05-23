@@ -25,7 +25,7 @@ html
           .span5
 
         .row
-          .span9
+          .span8
             ul.nav.nav-pills
               li.inicio
                 a(href='/') Inicio
@@ -37,15 +37,14 @@ html
                 a(href='/legisladores') Legisladores
               li.comisiones
                 a(href='/comisiones') Comisiones
-          .span3.search-bar
+          .span4.search-bar
            form(action='/search',method='get').form-search
             .row
                 .span4
                    .input-append
-                     input.span2(type='text', name='q')
-                     button.btn(type='submit') Buscar
+                     input(type='text', name='q', placeholder='Proyectos por palabra clave', class='searchHook span3')
                      input#searchCategory(type='hidden', value='sumario', name='cat')
-            .row
+            //.row
                .span2
                    .btn-group.pull-right#searchCatList(data-toggle='buttons-radio')
                      button.btn.active#search-sumarios Proyectos
@@ -80,9 +79,11 @@ html
                 h5 Colaborá con Media Sanción
                 ul
                     li
-                      a(href='http://poderciudadano.org/', target='_blank') Fundación Poder Ciudadano
+                      a(href='https://github.com/k0001/mscrap/', target='_blank') Media Sanción Scraper
                     li
-                      a(href='http://www.lauraalonso.org/', target='_blank') Diputada Laura Alonso
+                      a(href='https://github.com/k0001/mediasancion/', target='_blank') Media Sanción API
+                    li
+                      a(href='https://github.com/davo/mediasancion-gui/', target='_blank') Media Sanción WebApp
           
 
     script(src='/javascripts/jquery-1.8.0.min.js')
