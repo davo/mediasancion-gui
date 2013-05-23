@@ -1,15 +1,30 @@
 extends layout
 
 block content
-  .container
-      h1 Proyecto
-      - var proyecto = proyecto.payload.proyecto
+  .banner.proyecto
+    .container
       .jumbotron
-       p.lead Fecha: #{proyecto.publicacion_fecha}
-      .row-fluid
-       .span6
-        h4 Sumario
-        p #{proyecto.sumario}
-        p #{proyecto.texto_completo_url}
-        p #{proyecto.publicacion_en}
-        
+        .proyecto
+          - var proyecto = proyecto.payload.proyecto
+              h1 Proyecto de 
+                span(class='type '+proyecto.tipo.toLowerCase())
+              p.date Fecha: #{proyecto.publicacion_fecha}
+              p.published Publicado en: #{proyecto.publicacion_en}
+              p.classified Número de expediente: #{proyecto.camara_origen_expediente}
+
+              .legisladores
+                each legislador in proyecto.firmantes
+                  span.legislador
+                    a(href="/legislador/"+legislador.legislador.uuid) Ver este legislador
+
+              .row-fluid
+              .span6
+              h4 Sumario
+              span.comisiones
+                each comision in proyecto.comisiones
+                 span.comission #{ comision.comision.nombre }
+              p.summary #{proyecto.sumario}
+              a(href=proyecto.texto_completo_url,target='_blank') Ver texto completo
+              
+
+      

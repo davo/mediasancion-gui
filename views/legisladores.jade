@@ -9,10 +9,15 @@ block content
   .container
     .row
       .span12
-        #projects.projects
+        #projects.projects.legisladores
           each legislador in legisladores.payload.legisladores
-              .project.span4
-                .well
-                  p #{legislador.legislador.persona.nombre} #{legislador.legislador.persona.apellido}
-                  a(href='mailto:#{legislador.legislador.persona.email}') Mail
-                  p Partido: #{legislador.legislador.persona.partido}
+              -var apellido = legislador.legislador.persona.apellido
+                if apellido != null
+                .project.span4
+                  .well
+                    .row
+                      .span2
+                       span.image
+                      .span9
+                        p.name #{legislador.legislador.persona.nombre} #{legislador.legislador.persona.apellido}
+                        a(href='mailto:#{legislador.legislador.persona.email}', class='mail') Mail

@@ -16,7 +16,7 @@ block content
                 span.link
                   a(href="/proyecto/"+proyecto.proyecto.uuid) Ver proyecto
                 p.summary #{ proyecto.proyecto.sumario} 
-                p.type #{ proyecto.proyecto.tipo} 
+                p(class='type '+proyecto.proyecto.tipo.toLowerCase())
 
                 span.comisiones
                   each comision in proyecto.proyecto.comisiones

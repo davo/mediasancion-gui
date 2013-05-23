@@ -161,7 +161,6 @@ input[type="text"] {
     line-height: 48px;
     font-weight: 300;
     color: @white;
-    text-shadow: 0 1px 2px rgba(0,0,0,.2);
     padding: 120px 0 10px;
   }
 
@@ -177,6 +176,19 @@ input[type="text"] {
     background-color: @proyectos;
     text-align: left;
     h1 { padding: 40px 0 0; }
+  }
+
+    &.proyecto {
+    color: #333 !important;
+    min-height: 200px;
+    margin-bottom: 30px;
+    background-color: transparent;
+    text-align: left;
+    h1 { padding: 40px 0 0; color: #333; }
+    p {
+      color: #333;
+      font-size: 1.5em;
+    }
   }
 
   &.legisladores {
@@ -249,7 +261,6 @@ input[type="text"] {
           position: absolute;
           left: 0;
           top: 0;
-          top: 0;
           background-color: lighten(#AEB2B4, 15%);
           .border-radius(0px 0px 0px 0px);
           font-size: .75em;
@@ -257,6 +268,36 @@ input[type="text"] {
           padding: 3px 6px;
           color: @white;
         }
+
+        .type {
+
+          position: absolute;
+          top: 0;
+          right: 78px;
+          text-align: right;
+          background-color: lighten(#AEB2B4, 25%);
+          font-size: .75em;
+          font-weight: 800;
+          padding: 3px 6px;
+          color: darken(#AEB2B4, 25%);
+
+          &.l:before{
+            content: "Ley"
+          };
+
+          &.r:before{
+            content: "Resolución"
+          };
+
+          &.d:before{
+            content: "Declaración"
+          };
+          
+          &.c:before{
+            content: "Comunicación"
+          };
+        }
+
         .legisladores {
 
           .legislador a {
@@ -278,9 +319,108 @@ input[type="text"] {
         }
     }
   }
+}
+
+.proyecto {
+
+  .type {
+
+      &.l:before{
+        content: "Ley"
+      };
+
+      &.r:before{
+        content: "Resolución"
+      };
+
+      &.d:before{
+        content: "Declaración"
+      };
+      
+      &.c:before{
+        content: "Comunicación"
+      };
+
+  } 
+
+  .legisladores {
+
+    .legislador a {
+      .hideText;
+      float: left;
+      width: 20px; height: 20px;
+      margin-right: 5px;
+      background-color: #AEB2B4;
+      .border-radius(40px);
+      background-image: url('/images/user-icon.svg');
+      background-repeat: no-repeat;
+      background-position:50% 50%; 
+      background-size: 20px;
+      color: white;
+
+
+    }
+
+  }
+
+  .comission {
+    display: inline-block;
+    font-size: .68em;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 0px 5px;
+    color: @white;
+    background-color: @proyectos;
+    margin-right: 4px;
+    margin-bottom: 4px;
+    .border-radius(3px);
+    white-space: nowrap;
+  }
+
+  p.date, p.published, p.classified {
+    line-height: .8em;
+    font-size: 1.6em;
+  }
+
+  p.summary {
+    max-width: 60%;
+    color: darken(#333, 20%);
+    font-size: 1.76em;
+    line-height: 1.4em;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding-top: 10px;
+  }
 
 }
 
+.legisladores {
+
+  .name {
+    font-size: 1.36em;
+    font-weight: 700;
+    margin-left: 10px;
+  }
+
+  .mail {
+    margin-left: 10px;
+  }
+  .image {
+
+    float: left;
+    width: 50px; height: 50px;
+    margin-right: 5px;
+    background-color: #AEB2B4;
+    .border-radius(40px);
+    background-image: url('/images/user-icon.svg');
+    background-repeat: no-repeat;
+    background-position:50% 50%; 
+    background-size: 20px;
+    color: white;
+
+  }
+
+}
 
 .footer {
   background-color: darken(#BDE5F9, 30%);

@@ -31,7 +31,7 @@ var legislatorsList = 'http://198.74.50.217:8011/api/0/legisladores/?format=json
 var comissionsList = 'http://198.74.50.217:8011/api/0/comisiones/?format=json&fields=nombre&paginate_by=99';
 
 var legislatorViewUniqueId = function(uuid){ 
-  return 'http://198.74.50.217:8011/api/0/legisladores/?format=json&persona='+uuid+'&fields=persona.nombre,persona.apellido';
+  return 'http://198.74.50.217:8011/api/0/legisladores/'+uuid+'?format=json&fields=persona.nombre,persona.apellido';
 };
 
 /*
@@ -76,11 +76,11 @@ exports.proyecto = function(req, res){
 
 exports.legislador = function(req, res){
 
-  request(legislatorViewUniqueId(req.params.legislador_id), function(resp){ 
+  request(legislatorViewUniqueId(req.params.legislator_id), function(resp){ 
     console.log(resp.body.payload.legislador),
     res.render('legislador', { title: 'Media Sanción | Legislador', legislador: resp.body });
   });
-  
+
 };
 
 
