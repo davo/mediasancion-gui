@@ -8,7 +8,7 @@ var request = require('superagent'),
     fs = require('fs');
 var projectList, projectUniqueId;
 
-var projectList = 'http://198.74.50.217:8011/api/0/proyectos/?format=json&fields=tipo,sumario,comisiones.nombre,publicacion_fecha,camara_origen,firmantes,texto_mediasancion_senadores_url,texto_mediasancion_diputados_url,publicacion_en&paginate_by=10';
+var projectList = 'http://198.74.50.217:8011/api/0/proyectos/?format=json&fields=tipo,sumario,comisiones.nombre,publicacion_fecha,camara_origen,firmantes,texto_mediasancion_senadores_url,texto_mediasancion_diputados_url,publicacion_en&paginate_by=99';
 
 var projectListPage = function(id){ 
   return 'http://198.74.50.217:8011/api/0/proyectos/?page='+id+'&format=json&fields=sumario,comisiones.nombre,publicacion_fecha&paginate_by=99';
