@@ -14,17 +14,23 @@ var projectListPage = function(id){
   return 'http://198.74.50.217:8011/api/0/proyectos/?page='+id+'&format=json&fields=sumario,comisiones.nombre,publicacion_fecha&paginate_by=99';
 };
 
-var projectSearchKeyword = function(keyword){ 
-  return 'http://198.74.50.217:8011/api/0/proyectos/?fields=publicacion_fecha,sumario&name='+keyword+'&format=json&paginate_by=99';
+//http://198.74.50.217:8011/api/0/proyectos/?format=json&fields=tipo,sumario,comisiones.nombre,publicacion_fecha,camara_origen,firmantes,texto_mediasancion_senadores_url,texto_mediasancion_diputados_url,publicacion_en&paginate_by=99
+
+
+var searchProjects = function(field, keyword){ 
+  return 'http://198.74.50.217:8011/api/0/proyectos/?format=json&fields=tipo,sumario,comisiones.nombre,publicacion_fecha,camara_origen,firmantes,texto_mediasancion_senadores_url,texto_mediasancion_diputados_url,publicacion_en&name='+keyword+'&paginate_by=99';
 };
 
 var projectUniqueId = function(uuid){ 
   return 'http://198.74.50.217:8011/api/0/proyectos/'+uuid+'/?format=json';
 };
-
+/*
 var searchProjects = function(field,keys) {
 	return 'http://198.74.50.217:8011/api/0/proyectos/?format=json&'+field+'='+keys+'&fields=sumario,comisiones.nombre,publicacion_fecha&paginate_by=99';
 };
+*/
+
+
 
 var legislatorsList = 'http://198.74.50.217:8011/api/0/legisladores/?format=json&fields=persona.nombre,persona.apellido&paginate_by=99';
 
