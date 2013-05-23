@@ -80,6 +80,7 @@ exports.legislador = function(req, res){
     console.log(resp.body.payload.legislador),
     res.render('legislador', { title: 'Media Sanción | Legislador', legislador: resp.body });
   });
+  
 };
 
 
