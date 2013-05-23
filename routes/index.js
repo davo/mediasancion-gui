@@ -8,7 +8,7 @@ var request = require('superagent'),
     fs = require('fs');
 var projectList, projectUniqueId;
 
-var projectList = 'http://198.74.50.217:8011/api/0/proyectos/?format=json&fields=sumario,comisiones.nombre,publicacion_fecha&paginate_by=99';
+var projectList = 'http://198.74.50.217:8011/api/0/proyectos/?format=json&fields=sumario,comisiones.nombre,publicacion_fecha&paginate_by=10';
 
 var projectListPage = function(id){ 
   return 'http://198.74.50.217:8011/api/0/proyectos/?page='+id+'&format=json&fields=sumario,comisiones.nombre,publicacion_fecha&paginate_by=99';
