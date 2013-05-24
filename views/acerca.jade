@@ -6,20 +6,25 @@ block content
       h1 Acerca del proyecto
       .row
        .span10
-        p MediaSancion surge en 2010 como una iniciativa de Manuel Aristarán, Renzo Carbonara, y David Galavotti para comenzar a abrir, modelar, visualizar y comprender los datos del Congreso Nacional. En 2011, desde GarageLab, se presenta esta iniciativa a la Fundación Poder Ciudadano lográndose su apoyo para retomar y darle continuidad al proyecto. Se logra un prototipo funcional que permite listar los Proyectos de Ley que ingresan a la Cámara de Diputados, el giro a Comisión, y los autores del mismo. 
-        p A fines de 2012, la Dip. Laura Alonso apoya el proyecto MediaSancion y a GarageLab mediante un subsidio destinado a organizaciones de la sociedad civil. Renzo Carbonara desarrolla un “scraper” que sistematiza la extracción de los datos desde la Web del  Congreso, y una API que los expone directamente desde la base de datos. En esta etapa se suma Gonzalo Iglesias al equipo, y David Galavotti desarrolla una interface Web que toma los datos desde la API y los presenta de una forma legible y amigable para el público.
-        p Agradecemos enormemente a todas las personas y organizaciones que brindaron su apoyo para que este proyecto se pueda hacer público en Abril de 2013 y logre su objetivo de transparentar y faciltar el análisis de la actividad legislativa en su primer ciclo: desde la Mesa de Entradas de la Cámara de Diputados hasta el giro de los Proyectos a cada Comisión.
-         .about
-          h1 Media Sanción
-          p Las decisiones más importantes de la vida institucional y política del país pasan por el Congreso de la Nación: quienes y cuanto pagan por los impuestos, en dónde y cómo invertimos el producto de la recaudación, la evolución de nuestros derechos civiles y políticos, o el control de las actividades del Poder Ejecutivo. Muchos aspectos de ese proceso decisorio son, sin embargo, opacos para el público general y difíciles de comprender aún para los expertos.
-          p El objetivo de Media Sanción es contribuir a hacer la actividad legislativa no sólo más transparente, sino también (y fundamentalmente) más accesible y comprensible para la comunidad: un ciudadano buscando información acerca de sus legisladores, una ONG ambiental tratando de influir en la toma de decisiones, o un periodista intentando comprender el resultado de una votación.
-        .devs
-          h1 Para desarrolladores
-          p Media Sanción son tres proyectos en uno:
-            ol
-              li Un "scraper" que extrae y procesa la información directamente del sitio Web de la Honorable Cámara de Diputados.
-              li Una API que permite a cualquier desarrollador acceder a los datos de modo programático.
-              li Una WebApp que presenta y traduce esos mismos datos en información comprensible para el público general.
-          p Todos los componentes del proyecto (scraper, API y WebApp) son desarrollados utilizando tecnologías públicas y abiertas, y son cada una de ellos igualmente públicos y abiertos. Por convicción, pero también por una simple razón: necesitamos tu ayuda para mejorar y evolucionar el proyecto.
-          p Si querés saber más acerca de Media Sanción y colaborar con el proyecto, date una vuelta por el Github.
+         :markdown
+           Media Sanción surge en 2010 como una iniciativa de [Manuel Aristarán](http://jazzido.com), [Renzo Carbonara](http://twitter.com/k0001), y [David Galavotti](http://twitter.com/pixelbeat) para comenzar a abrir, modelar, visualizar y comprender los datos del Congreso Nacional. En 2011, desde [GarageLab](http://www.garagelab.cc), presentamos esta iniciativa a la [Fundación Poder Ciudadano](http://poderciudadano.org/) y conseguimos su apoyo para retomar y dar continuidad al proyecto. Logramos un prototipo funcional que permite listar los Proyectos de Ley que ingresan a la Cámara de Diputados, el giro a Comisión, y quiénes son sus autores. 
 
+           A fines de 2012, la Dip. Laura Alonso apoya el proyecto Media Sanción y a GarageLab mediante un subsidio destinado a organizaciones de la sociedad civil. Renzo Carbonara desarrolla un [“scraper”](https://github.com/k0001/mscrap) que sistematiza la extracción de los datos desde la Web del  Congreso y [una API](https://github.com/k0001/mediasancion) que los expone directamente desde la base de datos. En esta etapa se suma Gonzalo Iglesias al equipo y David Galavotti desarrolla una [interface Web](https://github.com/davo/mediasancion-gui) que toma los datos desde la API y los presenta de una forma legible y amigable para el público.
+
+           Agradecemos enormemente a todas las personas y organizaciones que brindaron su apoyo para que este proyecto se pueda hacer público en Abril de 2013 y logre su objetivo de transparentar y faciltar el análisis de la actividad legislativa en su primer ciclo: desde la Mesa de Entradas de la Cámara de Diputados hasta el giro de los Proyectos a cada Comisión.
+
+         .about
+           h1 Media Sanción
+           p Las decisiones más importantes de la vida institucional y política del país pasan por el Congreso de la Nación: quienes y cuanto pagan por los impuestos, en dónde y cómo invertimos el producto de la recaudación, la evolución de nuestros derechos civiles y políticos, o el control de las actividades del Poder Ejecutivo. Muchos aspectos de ese proceso decisorio son, sin embargo, opacos para el público general y difíciles de comprender aún para los expertos.
+          p El objetivo de Media Sanción es contribuir a hacer la actividad legislativa no sólo más transparente, sino también (y fundamentalmente) más accesible y comprensible para la comunidad: un ciudadano buscando información acerca de sus legisladores, una ONG ambiental tratando de influir en la toma de decisiones, o un periodista intentando comprender el resultado de una votación.
+         .devs
+           h1 Para desarrolladores
+           :markdown
+             Media Sanción son tres proyectos en uno:
+
+               1. Un [“scraper”](https://github.com/k0001/mscrap) que extrae y procesa la información directamente del [sitio web de la Honorable Cámara de Diputados](http://www.diputados.gov.ar/).
+               2. Una [API](https://github.com/k0001/mediasancion) que permite a cualquier desarrollador acceder a los datos de modo programático.
+               3. Una [WebApp](https://github.com/davo/mediasancion-gui) que presenta y traduce esos mismos datos en información comprensible para el público general.
+
+           p Todos los componentes del proyecto (scraper, API y WebApp) son desarrollados utilizando tecnologías públicas y abiertas, y son cada una de ellos igualmente públicos y abiertos. Por convicción, pero también por una simple razón: necesitamos tu ayuda para mejorar y evolucionar el proyecto.
+           p Si querés saber más acerca de Media Sanción y colaborar con el proyecto, date una vuelta por el Github.
