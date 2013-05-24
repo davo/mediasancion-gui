@@ -26,7 +26,7 @@ Esta es una iteración del proyecto Media Sanción que tiene como principal prop
 * [Adobe® Photoshop®] - Software de diseño propiedad de Adobe® para crear diseño de detalles sobre pixel.
 * [Adobe® Illustrator®] - Software diseño propiedad de Adobe® para manipular vectores, otorga flexibilidad para crear wireframes rápidos.
 * [Adobe® Illustrator®] - Software diseño propiedad de Adobe® para manipular vectores, otorga flexibilidad para crear wireframes rápidos.
-* [The Noun Project] - Plataforma colaborativa para crear el mayor catalogo de iconos basados en léxico/bocabulario controlado.
+* [The Noun Project] - Plataforma colaborativa para crear el mayor catalogo de iconos basados en léxico/vocabulario controlado.
 
   [Twitter Bootstrap]: http://twitter.github.com/bootstrap/
   [jQuery]: http://jquery.com

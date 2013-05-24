@@ -1,17 +1,18 @@
 {
-  "name": "MediaSancion",
-  "version": "0.0.2",
-  "private": "true",
-  "dependencies": {
-    "express": "3.0.0alpha4",
-    "jade": "*",
-    "less-middleware": "*",
-    "nib": "*",
-    "superagent": "~0.10.0",
-    "moment": "2.0.0"
-  },
-	"engines": {
-    "node": "0.8.x",
-    "npm": "1.1.x"
-	}
+    "name": "MediaSancion",
+    "version": "0.0.2",
+    "private": "true",
+    "dependencies": {
+        "express": "3.0.0alpha4",
+        "jade": "*",
+        "markdown": "*",
+        "less-middleware": "*",
+        "nib": "*",
+        "superagent": "~0.10.0",
+        "moment": "2.0.0"
+    },
+    "engines": {
+        "node": "0.8.x",
+        "npm": "1.1.x"
+    }
 }
